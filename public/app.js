@@ -1,4 +1,4 @@
-import { installPullClose } from './pull-close.mjs?v=trackpad-close-2';
+import { installPullClose } from './pull-close.mjs?v=trackpad-close-3';
 import { createSphereLayout, projectSphereCell, sphereRotation } from './ideas-sphere.mjs';
 import { installJerusalemStatus } from './jerusalem.mjs?v=clock-dial-2';
 import { installSiteIntro } from './site-intro.mjs?v=about-1';

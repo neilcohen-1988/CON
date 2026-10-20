@@ -133,9 +133,11 @@ The project has no gradient overlays at either edge.
 
 At the end of a project, an intentional upward pull reveals a closing control.
 The first part reveals the whole button; only then does its background fill.
-Trackpad input uses a short 120px reveal plus 180px fill and closes immediately
-when full, without a hold or release delay. A renewed push is recognized even
-without a long pause after decaying momentum. Touch uses a longer 260px reveal
+Trackpad input uses a short 72px reveal plus 108px fill and closes immediately
+when full, without a hold or release delay. A renewed push is recognized across
+160ms of samples, including gradually increasing pressure after decaying momentum.
+The stable shell captures the gesture over the revealed gap, button and videos.
+Touch uses a longer 260px reveal
 plus 540px fill and closes on release. Ordinary scrolling into the end and its
 momentum cannot close the project. Light or reversed pulls retract; Escape and
 the close button remain available.

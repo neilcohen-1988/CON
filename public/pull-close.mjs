@@ -1,6 +1,7 @@
-// A fresh gesture at the end is intentional; momentum from reaching the end is not.
+// Recognize a new push over several trackpad samples, not just one abrupt delta.
+// Decaying momentum from scrolling into the end must not dismiss the project.
 const DISTANCES = {
-  wheel: { reveal: 120, fill: 180 },
+  wheel: { reveal: 72, fill: 108 },
   touch: { reveal: 260, fill: 540 }
 };
 
@@ -10,7 +11,7 @@ export class PullProgress {
     this.distance = 0;
     this.allowed = false;
     this.lastWheel = -Infinity;
-    this.lastDelta = 0;
+    this.wheelSamples = [];
     this.input = 'wheel';
     this.bottomSince = null;
   }
@@ -20,20 +21,26 @@ export class PullProgress {
   }
   wheel(delta, now) {
     const fresh = now - this.lastWheel > 120;
-    const renewedPush = this.bottomSince !== null && now - this.bottomSince > 80 &&
-      delta >= 12 && delta > this.lastDelta * 1.4;
+    if (fresh) this.wheelSamples = [];
+    this.wheelSamples = this.wheelSamples.filter(sample => now - sample.time <= 160);
+    const baseline = Math.min(...this.wheelSamples
+      .filter(sample => now - sample.time >= 24)
+      .map(sample => sample.delta));
+    const renewedPush = this.bottomSince !== null && now - this.bottomSince >= 24 &&
+      delta >= 6 && delta - baseline >= 3 && delta >= baseline * 1.45;
     this.lastWheel = now;
-    this.lastDelta = Math.max(0, delta);
     this.input = 'wheel';
+    if (delta > 0) this.wheelSamples.push({ delta, time: now });
+    else this.wheelSamples = [];
     if (delta <= 0 || this.bottomSince === null) {
       this.distance = 0;
       this.allowed = false;
       return false;
     }
-    if (fresh) this.allowed = now - this.bottomSince > 60;
+    if (fresh) this.allowed = true;
     else if (renewedPush) this.allowed = true;
     if (!this.allowed) return false;
-    this.distance = Math.min(this.maximum, this.distance + Math.min(delta, 100));
+    this.distance = Math.min(this.maximum, this.distance + Math.min(delta, 180));
     return true;
   }
   touch(delta) {
@@ -86,9 +93,11 @@ export function installPullClose({ scroller, shell, button, label, close, getLab
     state.atBottom(bottom(), performance.now());
     if (!bottom()) update();
   }, { passive: true });
-  scroller.addEventListener('wheel', event => {
+  // The scroller moves upward as the close button appears. Listen on the stable
+  // shell so the same gesture continues over the button and the revealed gap.
+  shell.addEventListener('wheel', event => {
     if (event.ctrlKey || event.metaKey || Math.abs(event.deltaX) > Math.abs(event.deltaY) ||
-        event.target.closest('video,iframe,.thumbnails')) return;
+        event.target.closest('iframe,.thumbnails')) return;
     state.atBottom(bottom(), performance.now());
     const unit = event.deltaMode === 1 ? 16 : event.deltaMode === 2 ? scroller.clientHeight : 1;
     if (state.wheel(event.deltaY * unit, performance.now())) {

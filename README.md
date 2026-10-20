@@ -142,6 +142,31 @@ plus 540px fill and closes on release. Ordinary scrolling into the end and its
 momentum cannot close the project. Light or reversed pulls retract; Escape and
 the close button remain available.
 
+## Phone tilt
+
+On supported phones, the `TILT` / `הטיה` control enables motion steering for
+Things and Ideas. It requests DeviceOrientation permission directly from the tap
+where required; it never asks on page load. Use HTTPS (`https://con.fail`) on a
+phone. Unsupported devices and denied/unavailable sensors retain touch dragging.
+
+The first valid orientation calibrates the holding position. Relative rotation
+matrices avoid Euler-angle wrap jumps, a 1.5° neutral zone suppresses hand tremor,
+and steering reaches full strength at 18°. Screen rotation recalibrates and maps
+the axes to the current orientation. Velocity eases over 220ms with a lower cap
+than desktop pointer steering. Touch dragging takes priority, project dialogs
+pause movement, and returning from either recalibrates to the current grip.
+Background tabs stop movement and recalibrate on return. The existing pause
+control still works; changing the OS reduced-motion preference disables tilt.
+Tapping TILT again turns it off. No sensor readings are saved or transmitted.
+
+The tests cover direction, upright grips, wrap, screen rotation, permission
+grant/denial, missing sensors, cancellation and backgrounding. Desktop browser
+checks cover layout and the unavailable-sensor fallback; physical iPhone/Android
+sensor feel requires a real handset check.
+
+API references: [DeviceOrientation permission](https://developer.mozilla.org/en-US/docs/Web/API/DeviceOrientationEvent/requestPermission_static)
+and [orientation coordinate model](https://w3c.github.io/deviceorientation/#model).
+
 ## Content
 
 - `public/data/index.json`: lightweight canvas metadata and cover images.

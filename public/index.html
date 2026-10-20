@@ -12,8 +12,8 @@
   <meta property="og:description" content="Clothing, objects, source material and creative projects.">
   <link rel="icon" href="/assets/favicon.png">
   <link rel="preload" href="/assets/abc-favorit-light.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="/styles.css?v=con-release-oct20-1">
-  <script type="module" src="/app.js?v=trackpad-close-3"></script>
+  <link rel="stylesheet" href="/styles.css?v=phone-tilt-1">
+  <script type="module" src="/app.js?v=phone-tilt-1"></script>
 </head>
 <body>
   <svg class="media-filters" width="0" height="0" aria-hidden="true">
@@ -90,6 +90,11 @@
     </button>
     <img class="symbol" src="/assets/con-symbol.svg" width="29" height="29" alt="">
   </footer>
+  <button id="phone-tilt" class="tilt-control" type="button" aria-pressed="false" aria-label="Explore by tilting your phone" hidden>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="7.5" y="3.5" width="9" height="17" rx="2"/><path d="M10.5 17.5h3M3 8l-2 4 2 4M21 8l2 4-2 4"/></svg>
+    <span class="control-label">TILT</span>
+  </button>
+  <p id="tilt-status" class="tilt-status" role="status" hidden></p>
   <div class="grid-zoom" role="group" dir="ltr" data-i18n-aria="gridSize" aria-label="Grid size" hidden>
     <button type="button" id="grid-zoom-out" data-i18n-aria="zoomOut" aria-label="Make the grid smaller" disabled><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 10h10"/></svg></button>
     <button type="button" id="grid-zoom-in" data-i18n-aria="zoomIn" aria-label="Make the grid larger"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 10h10M10 5v10"/></svg></button>

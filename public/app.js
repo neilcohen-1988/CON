@@ -2,7 +2,8 @@ import { installPullClose } from './pull-close.mjs?v=trackpad-close-3';
 import { createSphereLayout, projectSphereCell, sphereRotation } from './ideas-sphere.mjs';
 import { installJerusalemStatus } from './jerusalem.mjs?v=clock-dial-2';
 import { installSiteIntro } from './site-intro.mjs?v=about-1';
-import { language, direction, t, setLanguage, configureContent, localizeProject } from './i18n.mjs?v=buy-bye-1';
+import { installPhoneTilt } from './phone-tilt.mjs?v=1';
+import { language, direction, t, setLanguage, configureContent, localizeProject } from './i18n.mjs?v=phone-tilt-1';
 
 const $ = (selector) => document.querySelector(selector);
 const field = $('#field');
@@ -70,6 +71,10 @@ let frame = 0;
 let lastTime = 0;
 let viewRequest = 0;
 let viewAnimations = [];
+const phoneTilt = installPhoneTilt({
+  button: $('#phone-tilt'), status: $('#tilt-status'), t,
+  onActivate: () => { keyboard = false; siteIntro.dismiss(); setPaused(false); }
+});
 const expandedCovers = {
   'broken-crown-h823x-e6wrc': {
     src: '/media/retouched/menora-left-shadow-wide.webp',
@@ -291,16 +296,20 @@ function setGridScale(value) {
 function tick(time) {
   const delta = Math.min((time - (lastTime || time)) / 16.667, 2);
   lastTime = time;
-  const overMenu = navigation.matches(':hover') || languageSwitch.matches(':hover') || $('.jerusalem-weather').matches(':hover') || (mode === 'things' && gridZoom.matches(':hover'));
-  const blocked = overMenu || dialog.open || mode === 'projects' || paused || !pointer.active || dragging || keyboard;
-  const distance = Math.hypot(pointer.x, pointer.y);
+  const tilting = phoneTilt.active;
+  const input = tilting ? phoneTilt.vector : pointer;
+  // Touch browsers retain :hover after a tap; that must not freeze tilt steering.
+  const overMenu = !tilting && (navigation.matches(':hover') || languageSwitch.matches(':hover') || $('.jerusalem-weather').matches(':hover') || (mode === 'things' && gridZoom.matches(':hover')));
+  const blocked = overMenu || dialog.open || mode === 'projects' || paused || !(tilting || pointer.active) || dragging || keyboard;
+  const distance = Math.hypot(input.x, input.y);
   const radius = Math.min(distance, 1);
   // Tile hover keeps moving; navigation hover eases the existing velocity to rest.
   // Normalize the vector so diagonals do not accelerate abruptly.
-  const speed = blocked ? 0 : (mode === 'ideas' ? 10.5 : 14) * (.18 * radius + .82 * radius * radius);
-  const targetX = distance ? pointer.x / distance * speed : 0;
-  const targetY = distance ? pointer.y / distance * speed : 0;
-  const smoothing = mode === 'ideas'
+  const maxSpeed = tilting ? (mode === 'ideas' ? 4.2 : 5.5) : (mode === 'ideas' ? 10.5 : 14);
+  const speed = blocked ? 0 : maxSpeed * (.18 * radius + .82 * radius * radius);
+  const targetX = distance ? input.x / distance * speed : 0;
+  const targetY = distance ? input.y / distance * speed : 0;
+  const smoothing = tilting ? 1 - Math.exp(-delta * 16.667 / 220) : mode === 'ideas'
     ? 1 - Math.exp(-delta * 16.667 / 320)
     : 1 - Math.pow(overMenu ? .86 : .90, delta);
   velocity.x += (targetX - velocity.x) * smoothing;
@@ -459,6 +468,7 @@ async function setView(next) {
 
 function commitView(next) {
   if (!canvasSets.size) return;
+  phoneTilt.recenter();
   if (mode !== 'projects') canvasSets.get(mode).camera = { ...camera };
   mode = next;
   gridZoom.hidden = mode !== 'things';
@@ -959,6 +969,7 @@ async function closeProject() {
   pauseProjectMedia();
   const finish = () => {
     dialog.close();
+    phoneTilt.recenter();
     stopAnimations();
     dialog.classList.remove('is-closing');
     document.body.append(projectCursor, cursorLabel);
@@ -1014,6 +1025,8 @@ document.addEventListener('pointerout', event => {
 window.addEventListener('blur', () => { pointer.active = false; velocity = { x: 0, y: 0 }; hideProjectCursor(); });
 canvas.addEventListener('pointerdown', event => {
   if (event.button !== 0 || (event.pointerType === 'mouse' && event.target.closest('.tile'))) return;
+  keyboard = false;
+  phoneTilt.recenter();
   dragged = false;
   dragging = { x: event.clientX, y: event.clientY, startX: event.clientX, startY: event.clientY, id: event.pointerId };
 });
@@ -1032,7 +1045,7 @@ canvas.addEventListener('pointermove', event => {
   dragging.x = event.clientX;
   dragging.y = event.clientY;
 });
-function endDrag() { dragging = null; setTimeout(() => { dragged = false; }, 0); }
+function endDrag() { dragging = null; phoneTilt.recenter(); setTimeout(() => { dragged = false; }, 0); }
 canvas.addEventListener('pointerup', endDrag);
 canvas.addEventListener('pointercancel', endDrag);
 canvas.addEventListener('wheel', event => {
@@ -1072,6 +1085,7 @@ document.addEventListener('keydown', event => {
   }
 });
 function setPaused(value) {
+  if (value !== paused) phoneTilt.recenter();
   paused = value;
   document.body.classList.toggle('paused', value);
   const toggle = $('.motion-toggle');
@@ -1084,7 +1098,10 @@ function setPaused(value) {
 $('.motion-toggle').addEventListener('click', () => setPaused(!paused));
 $('#grid-zoom-in').addEventListener('click', () => setGridScale(gridScaleTarget + .1));
 $('#grid-zoom-out').addEventListener('click', () => setGridScale(gridScaleTarget - .1));
-reducedMotion.addEventListener('change', () => setPaused(reducedMotion.matches));
+reducedMotion.addEventListener('change', () => {
+  if (reducedMotion.matches) phoneTilt.disable();
+  setPaused(reducedMotion.matches);
+});
 document.querySelectorAll('[data-view]').forEach(button => button.addEventListener('click', () => {
   siteIntro.dismiss();
   setView(button.dataset.view);
@@ -1180,6 +1197,7 @@ function applyLanguage() {
   cursorProject = null;
   pullClose.refresh();
   jerusalemStatus.refresh();
+  phoneTilt.refresh();
   setPaused(paused);
 }
 languageSwitch.addEventListener('click', event => {

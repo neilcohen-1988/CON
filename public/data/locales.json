@@ -1,0 +1,851 @@
+{
+  "projects": {
+    "broken-crown-h823x-e6wrc": {
+      "he": {
+        "displayTitle": "מנורה"
+      },
+      "en": {
+        "displayTitle": "MENORA"
+      }
+    },
+    "broken-crown-h823x-e243n": {
+      "he": {
+        "displayTitle": "האיש הרץ"
+      }
+    },
+    "broken-crown-h823x-e243n-fc2mx": {
+      "he": {
+        "displayTitle": "חתימה"
+      }
+    },
+    "broken-crown-h823x-3bad3-d3a8m-p6bse": {
+      "he": {
+        "displayTitle": "מכלים"
+      }
+    },
+    "broken-crown-h823x-3bad3-d3a8m-8lyw2-tcyf2-8rd3x": {
+      "he": {
+        "displayTitle": "אין זמן"
+      }
+    },
+    "broken-crown-h823x-3bad3-d3a8m-8lyw2-tcyf2": {
+      "he": {
+        "displayTitle": "גפרורי קון"
+      }
+    },
+    "broken-crown-h823x-3bad3-d3a8m-8lyw2": {
+      "he": {
+        "displayTitle": "עולם חדש"
+      }
+    },
+    "broken-crown-h823x-3bad3-d3a8m": {
+      "he": {
+        "displayTitle": "טיולי הסוף"
+      }
+    },
+    "broken-crown-h823x-3bad3": {
+      "he": {
+        "displayTitle": "כולם אוהבים את כולם"
+      }
+    },
+    "really-frank-ewkcs-r3sef-7f5pf": {
+      "he": {
+        "displayTitle": "לא טוב"
+      }
+    },
+    "broken-crown-h823x-gaeny": {
+      "he": {
+        "displayTitle": "כולם אוהבים את כולם"
+      }
+    },
+    "broken-crown-h823x": {
+      "he": {
+        "displayTitle": "כתר שבור II"
+      }
+    },
+    "really-frank-ewkcs-r3sef": {
+      "he": {
+        "displayTitle": "חולצת לוגו"
+      }
+    },
+    "brand-strategy-tee-3arc2": {
+      "he": {
+        "displayTitle": "דוד מלכיור בע״מ"
+      }
+    },
+    "really-frank-ewkcs": {
+      "he": {
+        "displayTitle": "המזכרת"
+      }
+    },
+    "con-tote": {
+      "he": {
+        "displayTitle": "תיק קון"
+      }
+    },
+    "future-postcards": {
+      "he": {
+        "displayTitle": "גלויות עתיד"
+      }
+    },
+    "brand-strategy-tee": {
+      "he": {
+        "displayTitle": "די לאלימות"
+      }
+    },
+    "the-father": {
+      "he": {
+        "displayTitle": "האב"
+      }
+    },
+    "brand-strategy": {
+      "he": {
+        "displayTitle": "אסטרטגיית מותג"
+      }
+    },
+    "synthetic-authentic": {
+      "he": {
+        "displayTitle": "אותנטי סינתטי"
+      }
+    },
+    "really-frank": {
+      "he": {
+        "displayTitle": "ממש פרנק"
+      }
+    },
+    "sale-tote": {
+      "he": {
+        "displayTitle": "תיק מבצע"
+      },
+      "en": {
+        "displayTitle": "SALE TOTE"
+      }
+    },
+    "broken-crown-embroidery": {
+      "he": {
+        "displayTitle": "כתר שבור — רקמה"
+      }
+    },
+    "the-price": {
+      "he": {
+        "displayTitle": "המחיר"
+      }
+    },
+    "broken-crown": {
+      "he": {
+        "displayTitle": "כתר שבור"
+      }
+    },
+    "acquired-taste": {
+      "he": {
+        "displayTitle": "גרבי טעם נרכש"
+      }
+    },
+    "brand-strategy-tee-3arc2-p282r-fbfpa-fxyng-cynyp": {
+      "he": {
+        "displayTitle": "גרבי שלום"
+      }
+    },
+    "better-future": {
+      "he": {
+        "displayTitle": "עתיד טוב יותר"
+      }
+    },
+    "dan-reisinger-letters": {
+      "en": {
+        "displayTitle": "Dan Reisinger Letters"
+      },
+      "he": {
+        "displayTitle": "אותיות ריזינגר",
+        "websiteLabel": "לאתר אותיות ריזינגר"
+      }
+    },
+    "otef": {
+      "en": {
+        "displayTitle": "Otef"
+      },
+      "he": {
+        "displayTitle": "עוטף",
+        "websiteLabel": "לאתר עוטף"
+      }
+    },
+    "dressed-to-protest": {
+      "en": {
+        "displayTitle": "Dressed to Protest"
+      },
+      "he": {
+        "displayTitle": "לובשים מחאה"
+      }
+    },
+    "dudu-geva-was-here": {
+      "en": {
+        "displayTitle": "Dudu Geva Was Here",
+        "collaboration": "CON × Haachim × Tel Aviv Museum of Art"
+      },
+      "he": {
+        "displayTitle": "דודו גבע היה פה",
+        "websiteLabel": "לאתר קבוצת האחים"
+      }
+    },
+    "jdw-buy-bye": {
+      "en": {
+        "displayTitle": "Buy Bye"
+      },
+      "he": {
+        "displayTitle": "שלם שלום",
+        "objectType": "מיצב וחנות פופ־אפ"
+      }
+    }
+  },
+  "blocks": {
+    "en": {
+      "דודו גבע העניק לישראלים את ההזדמנות למרוד במוסכמות ולגחך על הקונצנזוס, להתאהב בדמות האנטי-גיבור בתוך תרבות שמהללת את הגיבור הקלאסי.": {
+        "text": "Dudu Geva gave Israelis the chance to rebel against convention and laugh at the consensus, to fall in love with the antihero in a culture that celebrates the classic hero.",
+        "html": "Dudu Geva gave Israelis the chance to rebel against convention and laugh at the consensus, to fall in love with the antihero in a culture that celebrates the classic hero."
+      },
+      "בתוך הקלחת הישראלית, דודו גבע הכריז על גבי כל פיסת נייר שמצא: עדיין אופטימי.": {
+        "text": "Amid the Israeli turmoil, Dudu Geva declared on every scrap of paper he could find: still optimistic.",
+        "html": "Amid the Israeli turmoil, Dudu Geva declared on every scrap of paper he could find: still optimistic."
+      },
+      "האופטימיות שהציע לא היתה נחמה, אלא עמדה בלתי מתפשרת.": {
+        "text": "The optimism he offered was not consolation, but an uncompromising stance.",
+        "html": "The optimism he offered was not consolation, but an uncompromising stance."
+      },
+      "לא קבלה של המציאות, אלא סירוב מחויך.": {
+        "text": "Not acceptance of reality, but a smiling refusal.",
+        "html": "Not acceptance of reality, but a smiling refusal."
+      },
+      "קרדיטים": {
+        "text": "Credits",
+        "html": "Credits"
+      },
+      "אוצרות והפקה האחים: ניל כהן (קון)": {
+        "text": "Curation & Production, Haachim — Neil Cohen (CON)",
+        "html": "Curation & Production, Haachim — Neil Cohen (CON)"
+      },
+      "אוצרת - מוזיאון ת״א לאמנות: טל לניר": {
+        "text": "Curator, Tel Aviv Museum of Art — Tal Lanir",
+        "html": "Curator, Tel Aviv Museum of Art — Tal Lanir"
+      },
+      "ניהול תוכן האחים: נדב שפיגל": {
+        "text": "Content Management, Haachim — Nadav Spiegel",
+        "html": "Content Management, Haachim — Nadav Spiegel"
+      },
+      "ניהול פרויקט האחים: דקלה עינת, יותם דוקטור (האחים)": {
+        "text": "Project Management, Haachim — Dikla Einat, Yotam Doktor (Haachim)",
+        "html": "Project Management, Haachim — Dikla Einat, Yotam Doktor (Haachim)"
+      },
+      "עיצוב שפה חזותית ועיצוב בחלל: סטס טוצ'ינסקי": {
+        "text": "Visual Identity & Spatial Design — Stas Tochinski",
+        "html": "Visual Identity & Spatial Design — Stas Tochinski"
+      },
+      "עיצוב נוסף: הגר ליברמן": {
+        "text": "Additional Design — Hagar Liberman",
+        "html": "Additional Design — Hagar Liberman"
+      },
+      "שיווק - מוזיאון ת״א לאמנות: טל גור": {
+        "text": "Marketing, Tel Aviv Museum of Art — Tal Gur",
+        "html": "Marketing, Tel Aviv Museum of Art — Tal Gur"
+      },
+      "תודות: תמי ואהרון גבע, קובי ניב, שאול בצר, ימי ויסלר": {
+        "text": "Thanks — Tami and Aharon Geva, Kobi Niv, Shaul Betser, Yemi Wisler",
+        "html": "Thanks — Tami and Aharon Geva, Kobi Niv, Shaul Betser, Yemi Wisler"
+      },
+      "ניהול עיזבון דודו גבע: איתי שבתאי, עמותת מרסל": {
+        "text": "Dudu Geva Estate Management — Itai Shabtai, Marcel Association",
+        "html": "Dudu Geva Estate Management — Itai Shabtai, Marcel Association"
+      },
+      "בשיתוף: קון ומוזיאון תל אביב לאמנות": {
+        "text": "In Collaboration With — CON and Tel Aviv Museum of Art",
+        "html": "In Collaboration With — CON and Tel Aviv Museum of Art"
+      }
+    },
+    "he": {
+      "Limited Edition of 100 Units Till the End of Time\nPremium Heavyweight Socks in Terracotta Orange": {
+        "text": "מהדורה מוגבלת של 100 יחידות עד קץ הזמן\nגרביים עבים באיכות גבוהה בצבע כתום טרקוטה",
+        "html": "מהדורה מוגבלת של 100 יחידות עד קץ הזמן\nגרביים עבים באיכות גבוהה בצבע כתום טרקוטה"
+      },
+      "77% combed cotton, 17% Spandex, 14% Nylon\n\nEmbroidered symbol\n\nMachine wash\n\nUse care when washing\n\nMachine washable, 30 degrees delicate\n\nMade in Israel China": {
+        "text": "77% כותנה סרוקה, 17% ספנדקס, 14% ניילוןסמל רקוםכביסה במכונהיש לכבס בזהירותכביסה עדינה ב־30 מעלותמיוצר בישראל ובסין",
+        "html": "<li>77% כותנה סרוקה, 17% ספנדקס, 14% ניילון</li><li>סמל רקום</li><li>כביסה במכונה</li><li>יש לכבס בזהירות</li><li>כביסה עדינה ב־30 מעלות</li><li>מיוצר בישראל ובסין</li>"
+      },
+      "The Acquired Taste socks pay tribute to the beautiful adaptation of the iconic Coca Cola logo lettering in Hebrew, and Kinley–an orange soda also using the same lettering convention. The sock design incorporates the word “Sale” in Hebrew and English with a typeface inspired by David Tartakover in his famous “Ima” poster from 1987, revived typefaces created by the Fontef Type Foundry.": {
+        "text": "גרבי ״טעם נרכש״ מחווים לגרסה העברית היפה של אותיות הלוגו האיקוני של קוקה־קולה, וגם לקינלי — משקה תפוזים המשתמש באותה שפה של אותיות. העיצוב משלב את המילה ״מבצע״ בעברית ובאנגלית באותיות בהשראת הכרזה המפורסמת ״אמא״ מ־1987 של דוד טרטקובר, בגופנים שחודשו בבית האותיות פונטף.",
+        "html": "גרבי ״טעם נרכש״ מחווים לגרסה העברית היפה של אותיות הלוגו האיקוני של קוקה־קולה, וגם לקינלי — משקה תפוזים המשתמש באותה שפה של אותיות. העיצוב משלב את המילה ״מבצע״ בעברית ובאנגלית באותיות בהשראת הכרזה המפורסמת ״<a href=\"https://designarchive.shenkar.ac.il/items/144740\">אמא</a>״ מ־1987 של <a href=\"https://en.wikipedia.org/wiki/David_Tartakover\">דוד טרטקובר</a>, בגופנים שחודשו בבית האותיות פונטף."
+      },
+      "The Back of the sock says “Taam Nirkash” meaning “acquired taste” designed with Haim Condensed–a typeface used in the Israeli cigarette warnings contrasting the other elements on the sock and their dual meaning to both consumption and the Israeli-Palestinian conflict.": {
+        "text": "בגב הגרב מופיעות המילים ״טעם נרכש״ באות חיים צר — גופן המשמש באזהרות על סיגריות בישראל. הטיפוגרפיה עומדת בניגוד לאלמנטים האחרים בגרב ולמשמעות הכפולה שלהם, הנוגעת הן לצריכה והן לסכסוך הישראלי־פלסטיני.",
+        "html": "בגב הגרב מופיעות המילים ״טעם נרכש״ באות חיים צר — גופן המשמש באזהרות על סיגריות בישראל. הטיפוגרפיה עומדת בניגוד לאלמנטים האחרים בגרב ולמשמעות הכפולה שלהם, הנוגעת הן לצריכה והן לסכסוך הישראלי־פלסטיני."
+      },
+      "1976 Ad, introducing Kinli to the Israeli Market": {
+        "text": "מודעה מ־1976 המציגה את קינלי לשוק הישראלי",
+        "html": "מודעה מ־1976 המציגה את קינלי לשוק הישראלי"
+      },
+      "1984 Israeli Coke ad and a new patented carry handle, in bottom image is a Sprite and Kinli bottles": {
+        "text": "מודעת קוקה־קולה ישראלית מ־1984 וידית נשיאה חדשה בפטנט; בתמונה התחתונה בקבוקי ספרייט וקינלי",
+        "html": "מודעת קוקה־קולה ישראלית מ־1984 וידית נשיאה חדשה בפטנט; בתמונה התחתונה בקבוקי ספרייט וקינלי"
+      },
+      "1976 Kinli Ad": {
+        "text": "מודעת קינלי, 1976",
+        "html": "מודעת קינלי, 1976"
+      },
+      "1987 Kinli Ad": {
+        "text": "מודעת קינלי, 1987",
+        "html": "מודעת קינלי, 1987"
+      },
+      "English design of the work sale, letters by Fontef type foundry": {
+        "text": "עיצוב המילה Sale באנגלית, אותיות של בית האותיות פונטף",
+        "html": "עיצוב המילה Sale באנגלית, אותיות של בית האותיות פונטף"
+      },
+      "Hebrew design of the work sale, letters by Fontef type foundry": {
+        "text": "עיצוב המילה ״מבצע״ בעברית, אותיות של בית האותיות פונטף",
+        "html": "עיצוב המילה ״מבצע״ בעברית, אותיות של בית האותיות פונטף"
+      },
+      "Standard Hebrew sale stickers": {
+        "text": "מדבקות ״מבצע״ נפוצות בעברית",
+        "html": "מדבקות ״מבצע״ נפוצות בעברית"
+      },
+      "Hebrew sale sticker": {
+        "text": "מדבקת ״מבצע״ בעברית",
+        "html": "מדבקת ״מבצע״ בעברית"
+      },
+      "Israeli cigarette warnings in Hebrew and Arabic": {
+        "text": "אזהרות על סיגריות בישראל בעברית ובערבית",
+        "html": "אזהרות על סיגריות בישראל בעברית ובערבית"
+      },
+      "Limited Edition of 50 Units(Each Kind) Till the End of Time\nHeavyweight 100% Organic Cotton 420GSM French Terry Hooded Pullover/Sweatshirt in Olive Green": {
+        "text": "מהדורה מוגבלת של 50 יחידות מכל סוג עד קץ הזמן\nקפוצ׳ון / סווטשירט פרנץ׳ טרי עבה, 100% כותנה אורגנית, 420 גרם למ״ר, בצבע ירוק זית",
+        "html": "מהדורה מוגבלת של 50 יחידות מכל סוג עד קץ הזמן\nקפוצ׳ון / סווטשירט פרנץ׳ טרי עבה, 100% כותנה אורגנית, 420 גרם למ״ר, בצבע ירוק זית"
+      },
+      "Front screen printed design\n\nKangaroo pocket (hoodie)\n\nWide crewneck (sweatshirt)\n\nWide ribbed cuffs and hem\n\nMachine washable, 30 degrees delicate\n\nTo avoid shrinkage, do not machine dry!\n\nMade in Palestine, Israel, China, Turkey, Cannan": {
+        "text": "הדפס רשת בחזיתכיס קנגורו בקפוצ׳וןמפתח צוואר עגול ורחב בסווטשירטסיומות ריב רחבות בשרוולים ובמכפלתכביסה עדינה ב־30 מעלותלמניעת התכווצות, אין לייבש במייבש!מיוצר בפלסטין, ישראל, סין, טורקיה, כנען",
+        "html": "<li>הדפס רשת בחזית</li><li>כיס קנגורו בקפוצ׳ון</li><li>מפתח צוואר עגול ורחב בסווטשירט</li><li>סיומות ריב רחבות בשרוולים ובמכפלת</li><li>כביסה עדינה ב־30 מעלות</li><li>למניעת התכווצות, אין לייבש במייבש!</li><li>מיוצר בפלסטין, ישראל, סין, טורקיה, כנען</li>"
+      },
+      "Clonex is the Israeli version of Clonazepam (sold under the brand names Klonopin and Rivotril) manufactured by Teva Pharmaceutical. For those unfamiliar, it’s a medication used to help prevent and treat panic and anxiety. This design is a reaction to the polarised public and political atmosphere in present Israel.": {
+        "text": "קלונקס הוא הגרסה הישראלית של קלונאזפאם (המשווק גם בשמות קלונופין וריבוטריל), המיוצרת בטבע. למי שלא מכיר, זו תרופה המשמשת למניעה ולטיפול בהתקפי חרדה ופאניקה. העיצוב הוא תגובה לאווירה הציבורית והפוליטית המקוטבת בישראל.",
+        "html": "קלונקס הוא הגרסה הישראלית של קלונאזפאם (המשווק גם בשמות קלונופין וריבוטריל), המיוצרת בטבע. למי שלא מכיר, זו תרופה המשמשת למניעה ולטיפול בהתקפי חרדה ופאניקה. העיצוב הוא תגובה לאווירה הציבורית והפוליטית המקוטבת בישראל."
+      },
+      "The Hebrew typography means “Clonex for the people”, below it in fine trilingual type “for a better future”. The typography serves as the body of a Sabra figure holding a pill in one hand and a flower in the other.": {
+        "text": "הטיפוגרפיה אומרת ״קלונקס לעם״ ומתחתיה, באותיות קטנות בשלוש שפות, ״למען עתיד טוב יותר״. האותיות יוצרות את גופה של דמות צבר, המחזיקה כדור ביד אחת ופרח באחרת.",
+        "html": "הטיפוגרפיה אומרת ״קלונקס לעם״ ומתחתיה, באותיות קטנות בשלוש שפות, ״למען עתיד טוב יותר״. האותיות יוצרות את גופה של דמות <a href=\"https://en.wikipedia.org/wiki/Sabra_(person)\">צבר</a>, המחזיקה כדור ביד אחת ופרח באחרת."
+      },
+      "Limited Edition of 100 Units Till the End of Time\nPremium Heavyweight Socks in Beige": {
+        "text": "מהדורה מוגבלת של 100 יחידות עד קץ הזמן\nגרביים עבים באיכות גבוהה בצבע בז׳",
+        "html": "מהדורה מוגבלת של 100 יחידות עד קץ הזמן\nגרביים עבים באיכות גבוהה בצבע בז׳"
+      },
+      "Peace Socks celebrate the historic The Egypt–Israel peace treaty signed in Washington, D.C. on 26 March 1979, following the 1978 Camp David Accords. The Egypt–Israel treaty was signed by Egyptian president Anwar Sadat and Israeli prime minister Menachem Begin, and witnessed by United States president Jimmy Carter.": {
+        "text": "גרבי השלום מציינים את הסכם השלום ההיסטורי בין מצרים לישראל, שנחתם בוושינגטון ב־26 במרץ 1979 בעקבות הסכמי קמפ דייוויד מ־1978. על ההסכם חתמו נשיא מצרים אנואר סאדאת וראש ממשלת ישראל מנחם בגין, במעמד נשיא ארצות הברית ג׳ימי קרטר.",
+        "html": "גרבי השלום מציינים את <a href=\"https://en.wikipedia.org/wiki/Egypt%E2%80%93Israel_peace_treaty\">הסכם השלום ההיסטורי בין מצרים לישראל</a>, שנחתם בוושינגטון ב־26 במרץ 1979 בעקבות <a href=\"https://en.wikipedia.org/wiki/Camp_David_Accords\">הסכמי קמפ דייוויד</a> מ־1978. על ההסכם חתמו נשיא מצרים <a href=\"https://en.wikipedia.org/wiki/Anwar_Sadat\">אנואר סאדאת</a> וראש ממשלת ישראל <a href=\"https://en.wikipedia.org/wiki/Menachem_Begin\">מנחם בגין</a>, במעמד נשיא ארצות הברית <a href=\"https://en.wikipedia.org/wiki/Jimmy_Carter\">ג׳ימי קרטר</a>."
+      },
+      "The design is ironically a restored napkin design made in Israel in 1979 by an uncredited designer, found in a auction house ephemera sale.": {
+        "text": "באופן אירוני, העיצוב הוא שחזור של מפית שיוצרה בישראל ב־1979 בידי מעצב שלא קיבל קרדיט, ונמצאה במכירת פריטי נייר בבית מכירות פומביות.",
+        "html": "באופן אירוני, העיצוב הוא שחזור של מפית שיוצרה בישראל ב־1979 בידי מעצב שלא קיבל קרדיט, ונמצאה במכירת פריטי נייר בבית מכירות פומביות."
+      },
+      "The original napkin the design was restored from": {
+        "text": "המפית המקורית שממנה שוחזר העיצוב",
+        "html": "המפית המקורית שממנה שוחזר העיצוב"
+      },
+      "A copy of the actual Egypt–Israel peace treaty": {
+        "text": "עותק של הסכם השלום בין מצרים לישראל",
+        "html": "עותק של הסכם השלום בין מצרים לישראל"
+      },
+      "Limited Edition of 20 Units Till the End of Time\nHeavyweight 100% Cotton 230GSM Drop Shoulder Tee in Light Cream": {
+        "text": "מהדורה מוגבלת של 20 יחידות עד קץ הזמן\nחולצת טי עבה בגזרת כתף שמוטה, 100% כותנה, 230 גרם למ״ר, בצבע קרם בהיר",
+        "html": "מהדורה מוגבלת של 20 יחידות עד קץ הזמן\nחולצת טי עבה בגזרת כתף שמוטה, 100% כותנה, 230 גרם למ״ר, בצבע קרם בהיר"
+      },
+      "Front one color screen printed design\n\nBack CMYK color screen printed design\n\nWide crewneck\n\nMachine washable, 30 degrees delicate\n\nTo avoid shrinkage, do not machine dry!\n\nMade in Palestine, Israel, China, Turkey, Cannan": {
+        "text": "הדפס רשת בצבע אחד בחזיתהדפס רשת בצבעי CMYK בגבמפתח צוואר עגול ורחבכביסה עדינה ב־30 מעלותלמניעת התכווצות, אין לייבש במייבש!מיוצר בפלסטין, ישראל, סין, טורקיה, כנען",
+        "html": "<li>הדפס רשת בצבע אחד בחזית</li><li>הדפס רשת בצבעי CMYK בגב</li><li>מפתח צוואר עגול ורחב</li><li>כביסה עדינה ב־30 מעלות</li><li>למניעת התכווצות, אין לייבש במייבש!</li><li>מיוצר בפלסטין, ישראל, סין, טורקיה, כנען</li>"
+      },
+      "David Melchior was a print manager (aka print producer) that worked in Israel from the mid-’70s to the late ‘90s. In the late ‘80s, David partnered with Jeremy Richman to create the Visual Communication Guide 1989-1990. The book was a professional index for visual communication, a form of Yellow Pages with individual pages of double spread for each professional divided into categories (photographers, graphic designers, advertising agencies, etc). The book is a time capsule commemorating the professionals who operated in the local scene.\n\nThe design incorporates a reproduced double spread David had created to advertise his print management business; In the image, he’s holding a Gerbera flower, standing with his body facing sideways, emphasizing his belly above the typography written with “Haim Condensed” on an arched path says: “David Malichior, big print manager.” \n\nDavid Malchior, born in 1954, was a communication graduate. David was an associate partner in an advertising agency. Later, he specialized in marketing and reselling Hiedenberg offset machinery and other print-associated machinery, allowing him to become a print manager later. David worked with clients like the Israeli Export Institution, Knesset Israel, Nice, Cisco, independent designers, and tech companies. Died in 2003. We have gotten permission to use the design from Ofra Malchior, David’s widow.": {
+        "text": "דוד מלכיור היה מנהל ומפיק דפוס שפעל בישראל מאמצע שנות ה־70 ועד סוף שנות ה־90. בסוף שנות ה־80 חבר לג׳רמי ריצ׳מן ליצירת המדריך לתקשורת חזותית 1989–1990. הספר היה אינדקס מקצועי לתקשורת חזותית — מעין דפי זהב עם עמוד או כפולה לכל בעל מקצוע, בחלוקה לקטגוריות כגון צלמים, מעצבים גרפיים ומשרדי פרסום. הספר הוא קפסולת זמן המנציחה את אנשי המקצוע שפעלו בסצנה המקומית.\n\nהעיצוב משחזר כפולה שדוד יצר לפרסום עסק ניהול הדפוס שלו. בתמונה הוא מחזיק פרח גרברה ועומד בפרופיל, כשבטנו מודגשת מעל כיתוב בקשת באות ״חיים צר״: ״דוד מלכיור, מנהל דפוס גדול״.\n\nדוד מלכיור נולד ב־1954 והיה בוגר לימודי תקשורת. הוא היה שותף במשרד פרסום, ובהמשך התמחה בשיווק ובמכירה של מכונות אופסט היידלברג וציוד דפוס נוסף, ניסיון שאפשר לו להפוך בהמשך למנהל דפוס. בין לקוחותיו היו מכון היצוא הישראלי, כנסת ישראל, נייס, סיסקו, מעצבים עצמאיים וחברות טכנולוגיה. נפטר ב־2003. השימוש בעיצוב נעשה באישורה של עופרה מלכיור, אלמנתו.",
+        "html": "דוד מלכיור היה מנהל ומפיק דפוס שפעל בישראל מאמצע שנות ה־70 ועד סוף שנות ה־90. בסוף שנות ה־80 חבר לג׳רמי ריצ׳מן ליצירת המדריך לתקשורת חזותית 1989–1990. הספר היה אינדקס מקצועי לתקשורת חזותית — מעין דפי זהב עם עמוד או כפולה לכל בעל מקצוע, בחלוקה לקטגוריות כגון צלמים, מעצבים גרפיים ומשרדי פרסום. הספר הוא קפסולת זמן המנציחה את אנשי המקצוע שפעלו בסצנה המקומית.\n\nהעיצוב משחזר כפולה שדוד יצר לפרסום עסק ניהול הדפוס שלו. בתמונה הוא מחזיק פרח גרברה ועומד בפרופיל, כשבטנו מודגשת מעל כיתוב בקשת באות ״<a href=\"https://he.wikipedia.org/wiki/%D7%97%D7%99%D7%99%D7%9D_(%D7%92%D7%95%D7%A4%D7%9F)\">חיים צר</a>״: ״דוד מלכיור, מנהל דפוס גדול״.\n\nדוד מלכיור נולד ב־1954 והיה בוגר לימודי תקשורת. הוא היה שותף במשרד פרסום, ובהמשך התמחה בשיווק ובמכירה של מכונות אופסט היידלברג וציוד דפוס נוסף, ניסיון שאפשר לו להפוך בהמשך למנהל דפוס. בין לקוחותיו היו מכון היצוא הישראלי, כנסת ישראל, נייס, סיסקו, מעצבים עצמאיים וחברות טכנולוגיה. נפטר ב־2003. השימוש בעיצוב נעשה באישורה של עופרה מלכיור, אלמנתו."
+      },
+      "The original gatefold advertisement for David Malchior": {
+        "text": "המודעה המתקפלת המקורית של דוד מלכיור",
+        "html": "המודעה המתקפלת המקורית של דוד מלכיור"
+      },
+      "Limited Edition of 100 Units Till the End of Time\nHeavyweight 100% Organic Cotton 230GSM Jersey Drop Shoulder Tee in Black": {
+        "text": "מהדורה מוגבלת של 100 יחידות עד קץ הזמן\nחולצת טי ג׳רזי עבה בגזרת כתף שמוטה, 100% כותנה אורגנית, 230 גרם למ״ר, בצבע שחור",
+        "html": "מהדורה מוגבלת של 100 יחידות עד קץ הזמן\nחולצת טי ג׳רזי עבה בגזרת כתף שמוטה, 100% כותנה אורגנית, 230 גרם למ״ר, בצבע שחור"
+      },
+      "Front screen-printed design\n\nWide crewneck\n\nMachine washable, 30 degrees delicate\n\nTo avoid shrinkage, do not machine dry!\n\nMade in Palestine, Israel, China, Turkey, Cannan": {
+        "text": "הדפס רשת בחזיתמפתח צוואר עגול ורחבכביסה עדינה ב־30 מעלותלמניעת התכווצות, אין לייבש במייבש!מיוצר בפלסטין, ישראל, סין, טורקיה, כנען",
+        "html": "<li>הדפס רשת בחזית</li><li>מפתח צוואר עגול ורחב</li><li>כביסה עדינה ב־30 מעלות</li><li>למניעת התכווצות, אין לייבש במייבש!</li><li>מיוצר בפלסטין, ישראל, סין, טורקיה, כנען</li>"
+      },
+      "Originally released by Pinhas Dagan (MIA) in 1983, this T-shirt is said to have been sent to Menachem Begin, the Israeli Prime Minister at the time. The T-shirt was produced with the naive intent to distribute it all across Israel, hoping it would end the ongoing violence at the time–at least as stated by its creator in “This World” Magazine (העולם הזה) article from 1983.": {
+        "text": "החולצה יצאה במקור ב־1983 ביוזמת פנחס דגן, שעקבותיו אינם ידועים, ולפי המסופר נשלחה למנחם בגין, ראש ממשלת ישראל באותה תקופה. היא נוצרה מתוך כוונה תמימה להפיץ אותה ברחבי ישראל בתקווה לשים קץ לאלימות — לפחות כפי שטען יוצרה בכתבה ב״העולם הזה״ מ־1983.",
+        "html": "החולצה יצאה במקור ב־1983 ביוזמת פנחס דגן, שעקבותיו אינם ידועים, ולפי המסופר נשלחה למנחם בגין, ראש ממשלת ישראל באותה תקופה. היא נוצרה מתוך כוונה תמימה להפיץ אותה ברחבי ישראל בתקווה לשים קץ לאלימות — לפחות כפי שטען יוצרה בכתבה ב<a href=\"https://thisworld.online\">״העולם הזה״</a> מ־1983."
+      },
+      "“This World” Issue No 2379 - 6.4.1983": {
+        "text": "״העולם הזה״, גיליון 2379 — 6.4.1983",
+        "html": "״העולם הזה״, גיליון 2379 — 6.4.1983"
+      },
+      "Limited Edition of 50 Units Till the End of Time\nHeavyweight 100% Organic Cotton 230GSM Jersey Drop Shoulder Tee in Light Cream": {
+        "text": "מהדורה מוגבלת של 50 יחידות עד קץ הזמן\nחולצת טי ג׳רזי עבה בגזרת כתף שמוטה, 100% כותנה אורגנית, 230 גרם למ״ר, בצבע קרם בהיר",
+        "html": "מהדורה מוגבלת של 50 יחידות עד קץ הזמן\nחולצת טי ג׳רזי עבה בגזרת כתף שמוטה, 100% כותנה אורגנית, 230 גרם למ״ר, בצבע קרם בהיר"
+      },
+      "Front, Back and right sleeve screen printed design\n\nWide crewneck\n\nMachine washable, 30 degrees delicate\n\nTo avoid shrinkage, do not machine dry!\n\nMade in Palestine, Israel, China, Turkey, Cannan": {
+        "text": "הדפסי רשת בחזית, בגב ובשרוול ימיןמפתח צוואר עגול ורחבכביסה עדינה ב־30 מעלותלמניעת התכווצות, אין לייבש במייבש!מיוצר בפלסטין, ישראל, סין, טורקיה, כנען",
+        "html": "<li>הדפסי רשת בחזית, בגב ובשרוול ימין</li><li>מפתח צוואר עגול ורחב</li><li>כביסה עדינה ב־30 מעלות</li><li>למניעת התכווצות, אין לייבש במייבש!</li><li>מיוצר בפלסטין, ישראל, סין, טורקיה, כנען</li>"
+      },
+      "Inspired by an interview with intellectual Noam Chomsky and a found postcard": {
+        "text": "בהשראת ראיון עם איש הרוח נועם חומסקי וגלויה שנמצאה",
+        "html": "בהשראת <a href=\"https://chomsky.info/198805__/\">ראיון</a> עם איש הרוח <a href=\"https://en.wikipedia.org/wiki/Noam_Chomsky\">נועם חומסקי</a> וגלויה שנמצאה"
+      },
+      "“They call it hasbarah. It is the only country I know of in the world that refers to propaganda as explanation. The Ministry of Propaganda is the Ministry of Explanation”": {
+        "text": "״הם קוראים לזה הסברה. זו המדינה היחידה בעולם שאני מכיר שקוראת לתעמולה הסבר. משרד התעמולה הוא משרד ההסבר.״",
+        "html": "״הם קוראים לזה הסברה. זו המדינה היחידה בעולם שאני מכיר שקוראת לתעמולה הסבר. משרד התעמולה הוא משרד ההסבר.״"
+      },
+      "The T-shirt presents a fictitious conference dedicated to brand strategy held by the Israeli Propaganda and Information Organization–hybrid of the Information Minister of Israel and the Israeli P.R Association.": {
+        "text": "החולצה מציגה כנס בדיוני לאסטרטגיית מותג מטעם ארגון התעמולה והמידע הישראלי — הכלאה בין משרד ההסברה הישראלי לאיגוד יחסי הציבור בישראל.",
+        "html": "החולצה מציגה כנס בדיוני לאסטרטגיית מותג מטעם ארגון התעמולה והמידע הישראלי — הכלאה בין משרד ההסברה הישראלי לאיגוד יחסי הציבור בישראל."
+      },
+      "Edward Barneys, the father of public relations, is also incorporated into the design as a special guest. See The Father–an item dedicated to some of Barneys’s most famous campaigns.": {
+        "text": "אדוארד ברנייז, אבי יחסי הציבור, משולב בעיצוב כאורח מיוחד. ראו גם את ״האב״ — פריט המוקדש לכמה מהקמפיינים המפורסמים ביותר שלו.",
+        "html": "<a href=\"https://en.wikipedia.org/wiki/Edward_Bernays\">אדוארד ברנייז</a>, אבי יחסי הציבור, משולב בעיצוב כאורח מיוחד. ראו גם את <a href=\"https://www.con.fail/shop/p/brand-strategy-tee-8xl7r-4ymz5-wgdal\">״האב״</a> — פריט המוקדש לכמה מהקמפיינים המפורסמים ביותר שלו."
+      },
+      "Limited Edition of 100 Units Till the End of Time\nHeavyweight 100% Organic Cotton 420GSM French Terry Hooded Pullover in Black": {
+        "text": "מהדורה מוגבלת של 100 יחידות עד קץ הזמן\nקפוצ׳ון פרנץ׳ טרי עבה, 100% כותנה אורגנית, 420 גרם למ״ר, בצבע שחור",
+        "html": "מהדורה מוגבלת של 100 יחידות עד קץ הזמן\nקפוצ׳ון פרנץ׳ טרי עבה, 100% כותנה אורגנית, 420 גרם למ״ר, בצבע שחור"
+      },
+      "Front-embroidered design \n\nPrinted laces and end-caps\n\nKangaroo pocket (hoodie)\n\nWide crewneck (sweatshirt)\n\nWide ribbed cuffs and hem\n\nMachine washable, 30 degrees delicate\n\nTo avoid shrinkage, do not machine dry!\n\nMade in Palestine, Israel, China, Turkey, Cannan": {
+        "text": "רקמה בחזיתשרוכים וקצוות מודפסיםכיס קנגורו בקפוצ׳וןמפתח צוואר עגול ורחב בסווטשירטסיומות ריב רחבות בשרוולים ובמכפלתכביסה עדינה ב־30 מעלותלמניעת התכווצות, אין לייבש במייבש!מיוצר בפלסטין, ישראל, סין, טורקיה, כנען",
+        "html": "<li>רקמה בחזית</li><li>שרוכים וקצוות מודפסים</li><li>כיס קנגורו בקפוצ׳ון</li><li>מפתח צוואר עגול ורחב בסווטשירט</li><li>סיומות ריב רחבות בשרוולים ובמכפלת</li><li>כביסה עדינה ב־30 מעלות</li><li>למניעת התכווצות, אין לייבש במייבש!</li><li>מיוצר בפלסטין, ישראל, סין, טורקיה, כנען</li>"
+      },
+      "Keter Group has been an innovative player in Israeli plastic manufacturing since 1948. Not by chance, Keter Plastic is responsible for the Israeli version of a monobloc chair named “Club Chair 2”. Keter’s monobloc plastic chairs share a collective memory associated with funerals, large public events, massive brawls, and more. As a result, monobloc chairs have earned a place of honor in modern Israeli art–used by artists Anna Mirkin, Ori Shifrin Anavi, and more. The hoodie incorporates an image taken by artist and Con board member Neil Cohen.": {
+        "text": "קבוצת כתר פועלת בתעשיית הפלסטיק בישראל מאז 1948. לא במקרה, כתר פלסטיק אחראית לגרסה הישראלית של כיסא המונובלוק, המכונה ״כיסא קלאב 2״. כיסאות הפלסטיק של כתר נושאים זיכרון קולקטיבי של הלוויות, אירועים ציבוריים גדולים, קטטות המוניות ועוד. כך הם זכו למקום של כבוד באמנות הישראלית העכשווית, ביצירות של אנה מירקין, אורי שיפרין ענבי ואחרים. הקפוצ׳ון משלב דימוי שצילם האמן וחבר הנהלת קון ניל כהן.",
+        "html": "<a href=\"https://en.wikipedia.org/wiki/Keter_Group\">קבוצת כתר</a> פועלת בתעשיית הפלסטיק בישראל מאז 1948. לא במקרה, כתר פלסטיק אחראית לגרסה הישראלית של כיסא ה<a href=\"https://en.wikipedia.org/wiki/Monobloc_(chair)\">מונובלוק</a>, המכונה ״<a href=\"https://il.keter.com/items/2438570-%D7%9B%D7%A1%D7%90-%D7%A7%D7%9C%D7%90%D7%91-2-CLUB-%D7%92%D7%A8%D7%A0%D7%99%D7%98\">כיסא קלאב 2</a>״. כיסאות הפלסטיק של כתר נושאים זיכרון קולקטיבי של <a href=\"https://www.inn.co.il/static/pictures/781x439/497451.jpg\">הלוויות</a>, אירועים ציבוריים גדולים, <a href=\"https://www.youtube.com/watch?v=OXVqJO0yhf4\">קטטות המוניות</a> ועוד. כך הם זכו למקום של כבוד באמנות הישראלית העכשווית, ביצירות של <a href=\"https://annamirkin.com/\">אנה מירקין</a>, <a href=\"https://edrcenter.com/en/graduates/ori-shifrin-anavi/\">אורי שיפרין ענבי</a> ואחרים. הקפוצ׳ון משלב דימוי שצילם האמן וחבר הנהלת קון ניל כהן."
+      },
+      "Original screen print by artist Neil Cohen": {
+        "text": "הדפס הרשת המקורי של האמן ניל כהן",
+        "html": "הדפס הרשת המקורי של האמן ניל כהן"
+      },
+      "1982 Keter Plastic ad for toilet accessories": {
+        "text": "מודעת כתר פלסטיק לאביזרי שירותים, 1982",
+        "html": "מודעת כתר פלסטיק לאביזרי שירותים, 1982"
+      },
+      "1981 Keter Plastic ad for toilet accessories": {
+        "text": "מודעת כתר פלסטיק לאביזרי שירותים, 1981",
+        "html": "מודעת כתר פלסטיק לאביזרי שירותים, 1981"
+      },
+      "1982 Keter Plastic ad for home and camping products": {
+        "text": "מודעת כתר פלסטיק למוצרי בית וקמפינג, 1982",
+        "html": "מודעת כתר פלסטיק למוצרי בית וקמפינג, 1982"
+      },
+      "Created as part of the Con x Jerusalem Design Week Popup Shop": {
+        "text": "נוצר במסגרת חנות הפופ־אפ של קון ושבוע העיצוב ירושלים",
+        "html": "נוצר במסגרת חנות הפופ־אפ של קון ושבוע העיצוב ירושלים"
+      },
+      "Limited Edition of 50 Units Till the End of Time\nPrinted on Gildan® Heavy Cotton™ 5.3 oz/yd² | 100% US Cotton": {
+        "text": "מהדורה מוגבלת של 50 יחידות עד קץ הזמן\nמודפס על Gildan® Heavy Cotton™, במשקל 5.3 אונקיות ליארד רבוע, 100% כותנה אמריקאית",
+        "html": "מהדורה מוגבלת של 50 יחידות עד קץ הזמן\nמודפס על Gildan® Heavy Cotton™, במשקל 5.3 אונקיות ליארד רבוע, 100% כותנה אמריקאית"
+      },
+      "Front, Back and Collar screen-printed design\n\n16 singles\n\nMachine washable, 30 degrees delicate\n\nTo avoid shrinkage, do not machine dry!\n\nMade in USA, Palestine, Israel, Cannan": {
+        "text": "הדפסי רשת בחזית, בגב ובצווארוןחוט בעובי 16 singlesכביסה עדינה ב־30 מעלותלמניעת התכווצות, אין לייבש במייבש!מיוצר בארצות הברית, פלסטין, ישראל, כנען",
+        "html": "<li>הדפסי רשת בחזית, בגב ובצווארון</li><li>חוט בעובי 16 singles</li><li>כביסה עדינה ב־30 מעלות</li><li>למניעת התכווצות, אין לייבש במייבש!</li><li>מיוצר בארצות הברית, פלסטין, ישראל, כנען</li>"
+      },
+      "Created for Jerusalem Design Week 2024 – \"Buy Bye\" – For Good and Bad Times\nWhether you’re celebrating life’s highs or preparing for the lows, Buy Bye has got you covered. This quirky pop-up shop is packed with rebranded essentials, all with a satirical twist to lay bare the Israeli reality.": {
+        "text": "נוצר לשבוע העיצוב ירושלים 2024 — ״Buy Bye״ — בזמנים טובים ורעים.\nבין שחוגגים את רגעי השיא ובין שמתכוננים לשפל, Buy Bye מספקת את כל מה שצריך. חנות הפופ־אפ מלאה במוצרי יסוד שמותגו מחדש, עם טוויסט סאטירי החושף את המציאות הישראלית.",
+        "html": "נוצר לשבוע העיצוב ירושלים 2024 — ״Buy Bye״ — בזמנים טובים ורעים.\nבין שחוגגים את רגעי השיא ובין שמתכוננים לשפל, Buy Bye מספקת את כל מה שצריך. חנות הפופ־אפ מלאה במוצרי יסוד שמותגו מחדש, עם טוויסט סאטירי החושף את המציאות הישראלית."
+      },
+      "We’ve created a fictitious supermarket that blends humor with reality, offering everything you might need for both joyful celebrations and unexpected disasters. It’s not just a store—it’s a space where satire meets survival.": {
+        "text": "יצרנו סופרמרקט בדיוני המשלב הומור ומציאות ומציע כל מה שעשוי להידרש לחגיגות משמחות וגם לאסונות בלתי צפויים. זו לא רק חנות — זהו מרחב שבו סאטירה פוגשת הישרדות.",
+        "html": "יצרנו סופרמרקט בדיוני המשלב הומור ומציאות ומציע כל מה שעשוי להידרש לחגיגות משמחות וגם לאסונות בלתי צפויים. זו לא רק חנות — זהו מרחב שבו סאטירה פוגשת הישרדות."
+      },
+      "Front and Collar screen-printed design\n\n16 singles\n\nMachine washable, 30 degrees delicate\n\nTo avoid shrinkage, do not machine dry!\n\nMade in USA, Palestine, Israel, Cannan": {
+        "text": "הדפסי רשת בחזית ובצווארוןחוט בעובי 16 singlesכביסה עדינה ב־30 מעלותלמניעת התכווצות, אין לייבש במייבש!מיוצר בארצות הברית, פלסטין, ישראל, כנען",
+        "html": "<li>הדפסי רשת בחזית ובצווארון</li><li>חוט בעובי 16 singles</li><li>כביסה עדינה ב־30 מעלות</li><li>למניעת התכווצות, אין לייבש במייבש!</li><li>מיוצר בארצות הברית, פלסטין, ישראל, כנען</li>"
+      },
+      "Limited Edition Containers. \nFilled and canned in Israel (Truth bleach is empty).\nHand Made.": {
+        "text": "מכלים במהדורה מוגבלת.\nמולאו ונארזו בישראל (מכל אקונומיקת ״אמת״ ריק).\nעבודת יד.",
+        "html": "מכלים במהדורה מוגבלת.\nמולאו ונארזו בישראל (מכל אקונומיקת ״אמת״ ריק).\nעבודת יד."
+      },
+      "Limited Edition of 100 Units Till the End of Time\nPrinted on Gildan® Heavy Cotton™ 5.3 oz/yd² | 100% US Cotton": {
+        "text": "מהדורה מוגבלת של 100 יחידות עד קץ הזמן\nמודפס על Gildan® Heavy Cotton™, במשקל 5.3 אונקיות ליארד רבוע, 100% כותנה אמריקאית",
+        "html": "מהדורה מוגבלת של 100 יחידות עד קץ הזמן\nמודפס על Gildan® Heavy Cotton™, במשקל 5.3 אונקיות ליארד רבוע, 100% כותנה אמריקאית"
+      },
+      "Created as part of the Con x Hafontia x Dan Reisinger Estate Collaboration": {
+        "text": "נוצר במסגרת שיתוף הפעולה בין קון, הפונטיה ועיזבון דן ריזינגר",
+        "html": "נוצר במסגרת שיתוף הפעולה בין קון, הפונטיה ועיזבון דן ריזינגר"
+      },
+      "Limited Edition of 50 Units Till the End of Time\nBlack is Printed on Gildan® Heavy Cotton™ 5.3 oz/yd² | 100% US Cotton": {
+        "text": "מהדורה מוגבלת של 50 יחידות עד קץ הזמן\nהגרסה השחורה מודפסת על Gildan® Heavy Cotton™, במשקל 5.3 אונקיות ליארד רבוע, 100% כותנה אמריקאית",
+        "html": "מהדורה מוגבלת של 50 יחידות עד קץ הזמן\nהגרסה השחורה מודפסת על Gildan® Heavy Cotton™, במשקל 5.3 אונקיות ליארד רבוע, 100% כותנה אמריקאית"
+      },
+      "Navy is Printed on Heavyweight 100% Organic Cotton 240GSM Jersey Drop Shoulder Tee": {
+        "text": "הגרסה הכחולה־כהה מודפסת על חולצת טי ג׳רזי עבה בגזרת כתף שמוטה, 100% כותנה אורגנית, 240 גרם למ״ר",
+        "html": "הגרסה הכחולה־כהה מודפסת על חולצת טי ג׳רזי עבה בגזרת כתף שמוטה, 100% כותנה אורגנית, 240 גרם למ״ר"
+      },
+      "Front screen-printed design\n\nWide crewneck\n\n16 singles\n\nMachine washable, 30 degrees delicate\n\nTo avoid shrinkage, do not machine dry!\n\nMade in USA, Palestine, Israel, China, Turkey, Cannan": {
+        "text": "הדפס רשת בחזיתמפתח צוואר עגול ורחבחוט בעובי 16 singlesכביסה עדינה ב־30 מעלותלמניעת התכווצות, אין לייבש במייבש!מיוצר בארצות הברית, פלסטין, ישראל, סין, טורקיה, כנען",
+        "html": "<li>הדפס רשת בחזית</li><li>מפתח צוואר עגול ורחב</li><li>חוט בעובי 16 singles</li><li>כביסה עדינה ב־30 מעלות</li><li>למניעת התכווצות, אין לייבש במייבש!</li><li>מיוצר בארצות הברית, פלסטין, ישראל, סין, טורקיה, כנען</li>"
+      },
+      "Con, HaFontia and the Dan Reisinger Estate — a project rooted in the legacy of one of Israel’s most influential graphic designers.": {
+        "text": "קון, הפונטיה ועיזבון דן ריזינגר — פרויקט הנטוע במורשתו של אחד המעצבים הגרפיים המשפיעים בישראל.",
+        "html": "קון, הפונטיה ועיזבון דן ריזינגר — פרויקט הנטוע במורשתו של אחד המעצבים הגרפיים המשפיעים בישראל."
+      },
+      "Dan Reisinger (1934–2019) was an Israeli artist and graphic designer whose work helped shape the visual language of modern design in Israel and internationally. Reisinger created iconic corporate identities, supergraphics, posters, logos, and cultural symbols that remain central to the visual fabric of the country. His legacy includes, among others, the logos for El Al airlines and Habima National Theatre, as well as a prolific body of graphic work exhibited around the world.": {
+        "text": "דן ריזינגר (1934–2019) היה אמן ומעצב גרפי ישראלי שעבודתו סייעה לעצב את השפה החזותית של העיצוב המודרני בישראל ובעולם. ריזינגר יצר זהויות תאגידיות איקוניות, סופרגרפיקה, כרזות, סמלים וסימני תרבות שנותרו חלק מרכזי בנוף החזותי המקומי. מורשתו כוללת, בין השאר, את סמלי אל על והתיאטרון הלאומי הבימה, לצד גוף עבודות גרפיות נרחב שהוצג ברחבי העולם.",
+        "html": "דן ריזינגר (1934–2019) היה אמן ומעצב גרפי ישראלי שעבודתו סייעה לעצב את השפה החזותית של העיצוב המודרני בישראל ובעולם. ריזינגר יצר זהויות תאגידיות איקוניות, סופרגרפיקה, כרזות, סמלים וסימני תרבות שנותרו חלק מרכזי בנוף החזותי המקומי. מורשתו כוללת, בין השאר, את סמלי אל על והתיאטרון הלאומי הבימה, לצד גוף עבודות גרפיות נרחב שהוצג ברחבי העולם."
+      },
+      "HaFontia, a type foundry and design collective, works to preserve, expand, and reinterpret typographic heritage — including the digital revival and public access to Reisinger’s typographic explorations. This collaboration bridges disciplines and generations, inviting a contemporary engagement with a foundational design legacy.": {
+        "text": "הפונטיה, בית אותיות וקולקטיב עיצוב, עוסקת בשימור, בהרחבה ובפרשנות מחודשת של מורשת טיפוגרפית — ובה גם החייאה דיגיטלית והנגשה לציבור של מחקרי האותיות של ריזינגר. שיתוף הפעולה מחבר בין תחומים ודורות ומזמין מפגש עכשווי עם מורשת עיצוב יסודית.",
+        "html": "הפונטיה, בית אותיות וקולקטיב עיצוב, עוסקת בשימור, בהרחבה ובפרשנות מחודשת של מורשת טיפוגרפית — ובה גם החייאה דיגיטלית והנגשה לציבור של מחקרי האותיות של ריזינגר. שיתוף הפעולה מחבר בין תחומים ודורות ומזמין מפגש עכשווי עם מורשת עיצוב יסודית."
+      },
+      "Together, Con, HaFontia, and the Dan Reisinger Estate explore the intersections of material culture, visual language, and cultural narrative, celebrating Reisinger’s impact while recontextualizing his work for today’s design discourse.": {
+        "text": "יחד, קון, הפונטיה ועיזבון דן ריזינגר בוחנים את נקודות המפגש בין תרבות חומרית, שפה חזותית ונרטיב תרבותי. הם מציינים את השפעתו של ריזינגר וממקמים את עבודתו מחדש בשיח העיצוב העכשווי.",
+        "html": "יחד, קון, הפונטיה ועיזבון דן ריזינגר בוחנים את נקודות המפגש בין תרבות חומרית, שפה חזותית ונרטיב תרבותי. הם מציינים את השפעתו של ריזינגר וממקמים את עבודתו מחדש בשיח העיצוב העכשווי."
+      },
+      "Limited Edition of 20 Handcrafted Ceramic Hanukkiah\nCollaboration between Con and Ori Shifrin Anavi": {
+        "text": "מהדורה מוגבלת של 20 חנוכיות קרמיקה בעבודת יד\nשיתוף פעולה בין קון לאורי שיפרין ענבי",
+        "html": "מהדורה מוגבלת של 20 חנוכיות קרמיקה בעבודת יד\nשיתוף פעולה בין קון לאורי שיפרין ענבי"
+      },
+      "Width 275 mm\nHeight 115 mm\nDepth 50 mm": {
+        "text": "רוחב 275 מ״מ\nגובה 115 מ״מ\nעומק 50 מ״מ",
+        "html": "רוחב 275 מ״מ\nגובה 115 מ״מ\nעומק 50 מ״מ"
+      },
+      "Each piece is individually crafted\nSlight variations are part of the object\nFor candle use only, Clean gently by hand": {
+        "text": "כל פריט מיוצר בנפרד בעבודת יד\nהבדלים קלים הם חלק מהחפץ\nלשימוש בנרות בלבד; יש לנקות בעדינות ביד",
+        "html": "כל פריט מיוצר בנפרד בעבודת יד\nהבדלים קלים הם חלק מהחפץ\nלשימוש בנרות בלבד; יש לנקות בעדינות ביד"
+      },
+      "Ori Shifrin Anavi is an industrial designer and multidisciplinary visual creator, and a graduate of the Industrial Design Department at Shenkar. His practice operates at the intersection of serial design and material culture, positioned between art and design. Through industrial products, craft, and material experimentation, he explores the presence of objects in public and private space, often using them as raw material for experiential and performative works that invite response and participation.": {
+        "text": "אורי שיפרין ענבי הוא מעצב תעשייתי ויוצר חזותי רב־תחומי, בוגר המחלקה לעיצוב תעשייתי בשנקר. עבודתו פועלת במפגש בין עיצוב סדרתי לתרבות חומרית, בין אמנות לעיצוב. באמצעות מוצרים תעשייתיים, מלאכה והתנסות בחומר הוא בוחן את נוכחותם של חפצים במרחב הציבורי והפרטי, ולעיתים משתמש בהם כחומר גלם לעבודות חווייתיות ופרפורמטיביות המזמינות תגובה והשתתפות.",
+        "html": "אורי שיפרין ענבי הוא מעצב תעשייתי ויוצר חזותי רב־תחומי, בוגר המחלקה לעיצוב תעשייתי בשנקר. עבודתו פועלת במפגש בין עיצוב סדרתי לתרבות חומרית, בין אמנות לעיצוב. באמצעות מוצרים תעשייתיים, מלאכה והתנסות בחומר הוא בוחן את נוכחותם של חפצים במרחב הציבורי והפרטי, ולעיתים משתמש בהם כחומר גלם לעבודות חווייתיות ופרפורמטיביות המזמינות תגובה והשתתפות."
+      },
+      "Shifrin Anavi is an alumnus of the EDR Center Design Program and the recipient of the Edmond de Rothschild Design Award 2025 for Emerging Product Designer.": {
+        "text": "שיפרין ענבי הוא בוגר תוכנית העיצוב של מרכז אדמונד דה רוטשילד וזוכה פרס אדמונד דה רוטשילד לעיצוב לשנת 2025 בקטגוריית מעצב מוצר בתחילת דרכו.",
+        "html": "שיפרין ענבי הוא בוגר תוכנית העיצוב של מרכז אדמונד דה רוטשילד וזוכה פרס אדמונד דה רוטשילד לעיצוב לשנת 2025 בקטגוריית מעצב מוצר בתחילת דרכו."
+      },
+      "The collaboration between Con and Ori Shifrin Anavi began almost three years ago, during an initial meeting driven by a shared desire to explore working together. While the intention was present early on, the collaboration itself took shape only a few months ago, sparked by a phone call from Ori and a renewed urgency to create.": {
+        "text": "שיתוף הפעולה בין קון לאורי שיפרין ענבי החל כמעט שלוש שנים קודם לכן, בפגישה ראשונית שנבעה מרצון משותף לעבוד יחד. אף שהכוונה הייתה שם מההתחלה, שיתוף הפעולה קיבל צורה רק כמה חודשים לפני יצירת הפריט, בעקבות שיחת טלפון מאורי ודחיפות מחודשת ליצור.",
+        "html": "שיתוף הפעולה בין קון לאורי שיפרין ענבי החל כמעט שלוש שנים קודם לכן, בפגישה ראשונית שנבעה מרצון משותף לעבוד יחד. אף שהכוונה הייתה שם מההתחלה, שיתוף הפעולה קיבל צורה רק כמה חודשים לפני יצירת הפריט, בעקבות שיחת טלפון מאורי ודחיפות מחודשת ליצור."
+      },
+      "From the outset, the goal was to produce an object that brings together Ori’s deep engagement with ceramics and Con’s ongoing exploration of ephemera, symbolism, and Israeli design culture. The process unfolded as an ongoing ping pong between graphic design and object design, with a clear anchor point emerging early on: the iconic candle box.": {
+        "text": "מההתחלה, המטרה הייתה ליצור חפץ המפגיש בין העיסוק העמוק של אורי בקרמיקה לבין המחקר המתמשך של קון בפריטי נייר, בסמלים ובתרבות העיצוב הישראלית. התהליך התפתח כפינג־פונג בין עיצוב גרפי לעיצוב מוצר, כשכבר בשלב מוקדם התגבשה נקודת עוגן ברורה: קופסת הנרות האיקונית.",
+        "html": "מההתחלה, המטרה הייתה ליצור חפץ המפגיש בין העיסוק העמוק של אורי בקרמיקה לבין המחקר המתמשך של קון בפריטי נייר, בסמלים ובתרבות העיצוב הישראלית. התהליך התפתח כפינג־פונג בין עיצוב גרפי לעיצוב מוצר, כשכבר בשלב מוקדם התגבשה נקודת עוגן ברורה: קופסת הנרות האיקונית."
+      },
+      "The result is a ceramic Hanukkiah conceived as a singular, one time object. At first glance, it appears almost innocent, resembling a familiar, everyday box. On closer inspection, it reveals layers that speak to Israeli existence and its tensions: between secularity and Judaism, between the mundane and the sacred, and between routine life and belief in the shadow of a reality reshaped since October 7.\n\nThe object was produced using a ceramic mold, allowing for precision within a handcrafted process. The graphic elements were applied using ceramic decals.": {
+        "text": "התוצאה היא חנוכיית קרמיקה שנוצרה כחפץ יחיד וחד־פעמי. במבט ראשון היא נראית כמעט תמימה, כמו קופסה יומיומית מוכרת. מבט קרוב חושף שכבות הנוגעות בקיום הישראלי ובמתחים שבו: בין חילוניות ליהדות, בין חול לקודש, ובין שגרה לאמונה בצל מציאות שהשתנתה מאז 7 באוקטובר.\n\nהחפץ יוצר בתבנית קרמית, המאפשרת דיוק בתהליך של עבודת יד. האלמנטים הגרפיים יושמו באמצעות דקאלים קרמיים.",
+        "html": "התוצאה היא חנוכיית קרמיקה שנוצרה כחפץ יחיד וחד־פעמי. במבט ראשון היא נראית כמעט תמימה, כמו קופסה יומיומית מוכרת. מבט קרוב חושף שכבות הנוגעות בקיום הישראלי ובמתחים שבו: בין חילוניות ליהדות, בין חול לקודש, ובין שגרה לאמונה בצל מציאות שהשתנתה מאז 7 באוקטובר.\n\nהחפץ יוצר בתבנית קרמית, המאפשרת דיוק בתהליך של עבודת יד. האלמנטים הגרפיים יושמו באמצעות דקאלים קרמיים."
+      },
+      "The Hanukkiah underwent two firings: an initial firing with glaze, followed by a second, slower firing at a lower temperature, enabling the decal and graphic design to be permanently embedded into the surface.": {
+        "text": "החנוכייה עברה שתי שריפות: שריפה ראשונה עם גלזורה, ואחריה שריפה שנייה, איטית יותר ובטמפרטורה נמוכה יותר, שאפשרה לדקאל ולעיצוב הגרפי להיטמע לצמיתות בפני השטח.",
+        "html": "החנוכייה עברה שתי שריפות: שריפה ראשונה עם גלזורה, ואחריה שריפה שנייה, איטית יותר ובטמפרטורה נמוכה יותר, שאפשרה לדקאל ולעיצוב הגרפי להיטמע לצמיתות בפני השטח."
+      },
+      "Table candles hold a quiet yet persistent role in Israeli society. Their presence is defined by repetition, modesty, and familiarity. For over fifty years, the table candle box with its green print on a white surface has remained almost unchanged, becoming an iconic visual marker of everyday life.": {
+        "text": "לנרות השולחן תפקיד שקט אך מתמשך בחברה הישראלית. נוכחותם מתאפיינת בחזרתיות, בצניעות ובמוכרות. במשך יותר מחמישים שנה נותרה קופסת נרות השולחן, בהדפס ירוק על משטח לבן, כמעט ללא שינוי והפכה לסימן חזותי איקוני של חיי היומיום.",
+        "html": "לנרות השולחן תפקיד שקט אך מתמשך בחברה הישראלית. נוכחותם מתאפיינת בחזרתיות, בצניעות ובמוכרות. במשך יותר מחמישים שנה נותרה קופסת נרות השולחן, בהדפס ירוק על משטח לבן, כמעט ללא שינוי והפכה לסימן חזותי איקוני של חיי היומיום."
+      },
+      "The factory responsible for this enduring design is located in Sderot, a city that embodies the ongoing security and political complexities of Israel. This geographic reality adds an additional layer to the object, tying a simple domestic product to a broader national condition.\n\nCandles exist at the intersection of the sacred and the ordinary. They carry ritual, memory, and a touch of transcendence, while remaining cheap, accessible, and utilitarian. They move seamlessly between holy moments and everyday necessity, between the holiday table and moments of emergency.\n\nEngaging with this object allows for a reflection on the tensions embedded within Israeli society: between secularity and religion, between private belief and public structure, and between faith and the realities shaping contemporary life. Through its simplicity, the candle becomes a fragile yet potent symbol of coexistence, contradiction, and identity.": {
+        "text": "המפעל האחראי לעיצוב המתמשך הזה נמצא בשדרות, עיר המגלמת את המורכבות הביטחונית והפוליטית המתמשכת בישראל. המציאות הגאוגרפית הזו מוסיפה לחפץ שכבה נוספת וקושרת מוצר ביתי פשוט למצב לאומי רחב יותר.\n\nנרות מתקיימים במפגש בין הקודש ליומיום. הם נושאים טקס, זיכרון ומגע של התעלות, ובה בעת נשארים זולים, נגישים ושימושיים. הם עוברים בטבעיות בין רגעים קדושים לצורך יומיומי, בין שולחן החג למצבי חירום.\n\nהעיסוק בחפץ הזה מאפשר להתבונן במתחים הטמונים בחברה הישראלית: בין חילוניות לדת, בין אמונה פרטית למסגרת ציבורית, ובין אמונה למציאות המעצבת את החיים כיום. בפשטותו, הנר הופך לסמל שברירי אך רב־עוצמה של קיום משותף, סתירה וזהות.",
+        "html": "המפעל האחראי לעיצוב המתמשך הזה נמצא בשדרות, עיר המגלמת את המורכבות הביטחונית והפוליטית המתמשכת בישראל. המציאות הגאוגרפית הזו מוסיפה לחפץ שכבה נוספת וקושרת מוצר ביתי פשוט למצב לאומי רחב יותר.\n\nנרות מתקיימים במפגש בין הקודש ליומיום. הם נושאים טקס, זיכרון ומגע של התעלות, ובה בעת נשארים זולים, נגישים ושימושיים. הם עוברים בטבעיות בין רגעים קדושים לצורך יומיומי, בין שולחן החג למצבי חירום.\n\nהעיסוק בחפץ הזה מאפשר להתבונן במתחים הטמונים בחברה הישראלית: בין חילוניות לדת, בין אמונה פרטית למסגרת ציבורית, ובין אמונה למציאות המעצבת את החיים כיום. בפשטותו, הנר הופך לסמל שברירי אך רב־עוצמה של קיום משותף, סתירה וזהות."
+      },
+      "Limited Edition of 50 Units Till the End of Time\nHeavyweight 100% Organic Cotton 200GSM Jersey Tee": {
+        "text": "מהדורה מוגבלת של 50 יחידות עד קץ הזמן\nחולצת טי ג׳רזי עבה, 100% כותנה אורגנית, 200 גרם למ״ר",
+        "html": "מהדורה מוגבלת של 50 יחידות עד קץ הזמן\nחולצת טי ג׳רזי עבה, 100% כותנה אורגנית, 200 גרם למ״ר"
+      },
+      "Inspired by the cult scene from Will Ferrell's Semi-Pro where he introduces the concept of ELE - Everybody Love Everybody, we created a 60s-style inclusive illustration. This design reflects the diversity of minorities and personas present in Israeli society, along with a Hebrew translation of ELE. Some elements of the design reference Gush Emunim an Israeli ultranationalist Orthodox Jewish right-wing movement dedicated to establishing Jewish settlements in the West Bank, Gaza Strip, and Golan Heights. We created a satirical version of this, calling it \"Gush Metonim,\" which translates to \"The Moderate Bloc\" instead of \"The Believers' Bloc.\"": {
+        "text": "בהשראת סצנת הקאלט מהסרט Semi-Pro עם ויל פרל, שבה הוא מציג את ELE — Everybody Love Everybody, יצרנו איור מכיל בסגנון שנות ה־60. העיצוב משקף את מגוון המיעוטים והדמויות בחברה הישראלית, לצד תרגום עברי ל־ELE. חלק מהאלמנטים מתייחסים לגוש אמונים, תנועת ימין יהודית־אורתודוקסית אולטרה־לאומית שעסקה בהקמת התנחלויות בגדה המערבית, ברצועת עזה וברמת הגולן. יצרנו גרסה סאטירית בשם ״גוש מתונים״.",
+        "html": "בהשראת <a href=\"https://www.youtube.com/watch?v=2nXJe9i70DE\">סצנת הקאלט מהסרט Semi-Pro עם ויל פרל, שבה הוא מציג את ELE — Everybody Love Everybody</a>, יצרנו איור מכיל בסגנון שנות ה־60. העיצוב משקף את מגוון המיעוטים והדמויות בחברה הישראלית, לצד תרגום עברי ל־ELE. חלק מהאלמנטים מתייחסים ל<a href=\"https://en.wikipedia.org/wiki/Gush_Emunim\">גוש אמונים</a>, תנועת ימין יהודית־אורתודוקסית אולטרה־לאומית שעסקה בהקמת התנחלויות בגדה המערבית, ברצועת עזה וברמת הגולן. יצרנו גרסה סאטירית בשם ״גוש מתונים״."
+      },
+      "Original pamphlet for “Gush Emunim”": {
+        "text": "עלון מקורי של ״גוש אמונים״",
+        "html": "עלון מקורי של ״גוש אמונים״"
+      },
+      "Limited Edition of 100 Units Till the End of Time\nHeavyweight 100% Organic Cotton 240GSM Jersey Drop Shoulder Tee": {
+        "text": "מהדורה מוגבלת של 100 יחידות עד קץ הזמן\nחולצת טי ג׳רזי עבה בגזרת כתף שמוטה, 100% כותנה אורגנית, 240 גרם למ״ר",
+        "html": "מהדורה מוגבלת של 100 יחידות עד קץ הזמן\nחולצת טי ג׳רזי עבה בגזרת כתף שמוטה, 100% כותנה אורגנית, 240 גרם למ״ר"
+      },
+      "Front screen-printed design\n\nWide crewneck\n\n16 singles\n\nMachine washable, 30 degrees delicate\n\nTo avoid shrinkage, do not machine dry!\n\nMade in USA, Palestine, Israel, China, Turkey, Cannan\n\nPlease notice the brown shirt is oversized, wide and with a drop shoulder.": {
+        "text": "הדפס רשת בחזיתמפתח צוואר עגול ורחבחוט בעובי 16 singlesכביסה עדינה ב־30 מעלותלמניעת התכווצות, אין לייבש במייבש!מיוצר בארצות הברית, פלסטין, ישראל, סין, טורקיה, כנעןהחולצה החומה בגזרת אוברסייז רחבה עם כתף שמוטה.",
+        "html": "<li>הדפס רשת בחזית</li><li>מפתח צוואר עגול ורחב</li><li>חוט בעובי 16 singles</li><li>כביסה עדינה ב־30 מעלות</li><li>למניעת התכווצות, אין לייבש במייבש!</li><li>מיוצר בארצות הברית, פלסטין, ישראל, סין, טורקיה, כנען</li><li>החולצה החומה בגזרת אוברסייז רחבה עם כתף שמוטה.</li>"
+      },
+      "Limited Edition of 100 Units Till the End of Time\nHeavyweight 100% Cotton 320GSM Canvas Tote Bag in Camel Yellow": {
+        "text": "מהדורה מוגבלת של 100 יחידות עד קץ הזמן\nתיק קנבס עבה, 100% כותנה, 320 גרם למ״ר, בצבע צהוב קאמל",
+        "html": "מהדורה מוגבלת של 100 יחידות עד קץ הזמן\nתיק קנבס עבה, 100% כותנה, 320 גרם למ״ר, בצבע צהוב קאמל"
+      },
+      "Front screen-printed design and embroidery\n\nMachine wash only\n\nSide oversize tag\n\nCross-stitch weave\n\nUse care when washing\n\nMachine washable, 30 degrees delicate\n\nMade in Palestine, Israel, China, Cannan, Babylon": {
+        "text": "הדפס רשת ורקמה בחזיתכביסה במכונה בלבדתווית צד גדולהאריגת שתי וערביש לכבס בזהירותכביסה עדינה ב־30 מעלותמיוצר בפלסטין, ישראל, סין, כנען, בבל",
+        "html": "<li>הדפס רשת ורקמה בחזית</li><li>כביסה במכונה בלבד</li><li>תווית צד גדולה</li><li>אריגת שתי וערב</li><li>יש לכבס בזהירות</li><li>כביסה עדינה ב־30 מעלות</li><li>מיוצר בפלסטין, ישראל, סין, כנען, בבל</li>"
+      },
+      "Limited Edition of 100 Units Till the End of Time\n9 Digital printed postcards, hand-numbered and signed by the artist (Neil Cohen)": {
+        "text": "מהדורה מוגבלת של 100 יחידות עד קץ הזמן\n9 גלויות בהדפסה דיגיטלית, ממוספרות וחתומות ביד האמן ניל כהן",
+        "html": "מהדורה מוגבלת של 100 יחידות עד קץ הזמן\n9 גלויות בהדפסה דיגיטלית, ממוספרות וחתומות ביד האמן ניל כהן"
+      },
+      "8x 15x10.5cm Postcards\n\n1x Foldable 10.5x9 Postcard\n\n1x Craft envelope Hand stamped, hand numbered and signed by the artist": {
+        "text": "8 גלויות בגודל 15 × 10.5 ס״מגלויה מתקפלת אחת בגודל 10.5 × 9 ס״ממעטפת קראפט אחת, מוחתמת, ממוספרת וחתומה ביד האמן",
+        "html": "<li>8 גלויות בגודל 15 × 10.5 ס״מ</li><li>גלויה מתקפלת אחת בגודל 10.5 × 9 ס״מ</li><li>מעטפת קראפט אחת, מוחתמת, ממוספרת וחתומה ביד האמן</li>"
+      },
+      "Future Postcards visualize a fictional scenario of an Israeli-Palestinian peace agreement. First, the images were created using Ai grounded on reference images and digital compositing by artist Neil Cohen. Then the photos were incorporated into postcard layouts referencing Palphots postcards. Palphot, an Israeli monopoly in printed matter, especially postcards, from 1934 onward, still exists today.": {
+        "text": "״גלויות עתיד״ מדמיינות תרחיש בדיוני של הסכם שלום ישראלי־פלסטיני. תחילה יצר האמן ניל כהן את הדימויים בעזרת בינה מלאכותית, על בסיס תמונות ייחוס וקומפוזיטינג דיגיטלי. לאחר מכן שולבו התמונות בעיצובי גלויות המתייחסים לגלויות פלפוט. פלפוט, מונופול ישראלי בתחום מוצרי הדפוס ובייחוד הגלויות מאז 1934, ממשיכה לפעול עד היום.",
+        "html": "״גלויות עתיד״ מדמיינות תרחיש בדיוני של הסכם שלום ישראלי־פלסטיני. תחילה יצר האמן ניל כהן את הדימויים בעזרת בינה מלאכותית, על בסיס תמונות ייחוס וקומפוזיטינג דיגיטלי. לאחר מכן שולבו התמונות בעיצובי גלויות המתייחסים לגלויות <a href=\"https://www.palphot.com/palphot-at-a-glance/\">פלפוט</a>. <a href=\"https://www.palphot.com/palphot-at-a-glance/\">פלפוט</a>, מונופול ישראלי בתחום מוצרי הדפוס ובייחוד הגלויות מאז 1934, ממשיכה לפעול עד היום."
+      },
+      "Layer breakdown of the compositing process": {
+        "text": "פירוק לשכבות של תהליך הקומפוזיטינג",
+        "html": "פירוק לשכבות של תהליך הקומפוזיטינג"
+      },
+      "Limited Edition of 50 Units Till the End of Time\nHeavyweight 100% Organic Cotton 240GSM Jersey Drop Shoulder Tee": {
+        "text": "מהדורה מוגבלת של 50 יחידות עד קץ הזמן\nחולצת טי ג׳רזי עבה בגזרת כתף שמוטה, 100% כותנה אורגנית, 240 גרם למ״ר",
+        "html": "מהדורה מוגבלת של 50 יחידות עד קץ הזמן\nחולצת טי ג׳רזי עבה בגזרת כתף שמוטה, 100% כותנה אורגנית, 240 גרם למ״ר"
+      },
+      "This design is a conceptual wordplay that visually references the Israeli lottery, commonly known as \"Lotto.\" To reflect the current atmosphere in Israel, we altered the text from \"Lotto\" to \"Lo Tov,\" which translates to \"Not Good.\" This ironic twist uses the optimistic lottery logotype to convey a contrasting message. The original Israeli lottery logo was designed by Asher Kalderon in 1968 and was later updated by an unknown designer.": {
+        "text": "העיצוב הוא משחק מילים מושגי המתייחס חזותית ללוטו הישראלי. כדי לשקף את האווירה בישראל שינינו את הכיתוב מ״לוטו״ ל״לא טוב״. הטוויסט האירוני משתמש בלוגוטייפ האופטימי של ההגרלה כדי להעביר מסר מנוגד. הלוגו המקורי של הלוטו עוצב בידי אשר קלדרון ב־1968 ועודכן בהמשך בידי מעצב שזהותו אינה ידועה.",
+        "html": "העיצוב הוא משחק מילים מושגי המתייחס חזותית ללוטו הישראלי. כדי לשקף את האווירה בישראל שינינו את הכיתוב מ״לוטו״ ל״לא טוב״. הטוויסט האירוני משתמש בלוגוטייפ האופטימי של ההגרלה כדי להעביר מסר מנוגד. הלוגו המקורי של הלוטו עוצב בידי אשר קלדרון ב־1968 ועודכן בהמשך בידי מעצב שזהותו אינה ידועה."
+      },
+      "Front and Back screen-printed design\n\nWide crewneck\n\n16 singles\n\nMachine washable, 30 degrees delicate\n\nTo avoid shrinkage, do not machine dry!\n\nMade in USA, Palestine, Israel, China, Turkey, Cannan": {
+        "text": "הדפסי רשת בחזית ובגבמפתח צוואר עגול ורחבחוט בעובי 16 singlesכביסה עדינה ב־30 מעלותלמניעת התכווצות, אין לייבש במייבש!מיוצר בארצות הברית, פלסטין, ישראל, סין, טורקיה, כנען",
+        "html": "<li>הדפסי רשת בחזית ובגב</li><li>מפתח צוואר עגול ורחב</li><li>חוט בעובי 16 singles</li><li>כביסה עדינה ב־30 מעלות</li><li>למניעת התכווצות, אין לייבש במייבש!</li><li>מיוצר בארצות הברית, פלסטין, ישראל, סין, טורקיה, כנען</li>"
+      },
+      "Sou·ve·nir: a thing that is kept as a reminder of a person, place, or event. contradicting, true, or false a souvenir to support your view of a place is out there.\n\nThe souvenir tee humorously critiques the irony of the souvenir industry. It features various personas visiting the Holy Land: a Christian walking where Christ walked on water, a Muslim at the Dome of the Rock, or a Jew exploring ancient Canaan and the kingdom of David. There is a souvenir to support every narrative.": {
+        "text": "מזכרת: חפץ שנשמר כתזכורת לאדם, למקום או לאירוע. סותרת, אמיתית או כוזבת — אי שם קיימת מזכרת שתתמוך בנקודת המבט שלך על מקום.\n\nחולצת המזכרת מבקרת בהומור את האירוניה של תעשיית המזכרות. היא מציגה דמויות שונות המבקרות בארץ הקודש: נוצרי ההולך במקום שבו ישו הלך על המים, מוסלמי בכיפת הסלע או יהודי המחפש את כנען הקדומה וממלכת דוד. לכל נרטיב יש מזכרת שתתמוך בו.",
+        "html": "מזכרת: חפץ שנשמר כתזכורת לאדם, למקום או לאירוע. סותרת, אמיתית או כוזבת — אי שם קיימת מזכרת שתתמוך בנקודת המבט שלך על מקום.\n\nחולצת המזכרת מבקרת בהומור את האירוניה של תעשיית המזכרות. היא מציגה דמויות שונות המבקרות בארץ הקודש: נוצרי ההולך במקום שבו ישו הלך על המים, מוסלמי בכיפת הסלע או יהודי המחפש את כנען הקדומה וממלכת דוד. לכל נרטיב יש מזכרת שתתמוך בו."
+      },
+      "The front design incorporates the word \"danger\" from an electricity hazard sign, the ornament frame from iconic Israeli tuna packaging, and a typographic title incorporating both Palestine and Israel into one to reflect the conflicting narratives of the region.": {
+        "text": "העיצוב הקדמי משלב את המילה ״סכנה״ משלט אזהרת חשמל, מסגרת עיטור מאריזת טונה ישראלית איקונית וכותרת טיפוגרפית הממזגת את פלסטין וישראל, כדי לשקף את הנרטיבים הסותרים באזור.",
+        "html": "העיצוב הקדמי משלב את המילה ״סכנה״ משלט אזהרת חשמל, מסגרת עיטור מאריזת טונה ישראלית איקונית וכותרת טיפוגרפית הממזגת את פלסטין וישראל, כדי לשקף את הנרטיבים הסותרים באזור."
+      },
+      "The back design showcases logos representing both well-known and lesser-known locations in Israel. Each logo is paired with imagery that reflects opposing or personal memories associated with these places. For instance, Qalansawe, an Arab town in Israel's HaSharon area, is known among Israelis for affordable car repairs. Tel Aviv features a parody of the Remax logo, highlighting its skyrocketing real estate prices. Lod, infamous for high drug use and crime, is symbolized with a spoon and lighter. Gaza is represented by an adaptation of the \"Nesher\" cement logo, symbolizing both construction in Israel and tunnel building in Gaza. Underneath the logo units, there is a travel warning shared on the UK official website.": {
+        "text": "העיצוב האחורי מציג סמלים של מקומות מוכרים ופחות מוכרים בישראל. לכל סמל מוצמד דימוי המשקף זיכרון אישי או מנוגד הקשור למקום. קלנסווה, עיר ערבית באזור השרון, מוכרת לישראלים כמקום לתיקוני רכב במחיר נוח. תל אביב מוצגת בפרודיה על לוגו רימקס, המתייחסת למחירי הנדל״ן המזנקים. לוד, המזוהה עם שימוש בסמים ופשיעה, מסומלת בכף ובמצית. עזה מיוצגת בעיבוד ללוגו מלט ״נשר״, המסמל הן בנייה בישראל והן בניית מנהרות בעזה. מתחת למקבצי הסמלים מופיעה אזהרת מסע מהאתר הרשמי של בריטניה.",
+        "html": "העיצוב האחורי מציג סמלים של מקומות מוכרים ופחות מוכרים בישראל. לכל סמל מוצמד דימוי המשקף זיכרון אישי או מנוגד הקשור למקום. קלנסווה, עיר ערבית באזור השרון, מוכרת לישראלים כמקום לתיקוני רכב במחיר נוח. תל אביב מוצגת בפרודיה על לוגו רימקס, המתייחסת למחירי הנדל״ן המזנקים. לוד, המזוהה עם שימוש בסמים ופשיעה, מסומלת בכף ובמצית. עזה מיוצגת בעיבוד ללוגו מלט ״נשר״, המסמל הן בנייה בישראל והן בניית מנהרות בעזה. מתחת למקבצי הסמלים מופיעה <a href=\"https://www.gov.uk/foreign-travel-advice/the-occupied-palestinian-territories/safety-and-security\">אזהרת מסע מהאתר הרשמי של בריטניה</a>."
+      },
+      "Danger sign used for the front typography": {
+        "text": "שלט הסכנה ששימש לטיפוגרפיה הקדמית",
+        "html": "שלט הסכנה ששימש לטיפוגרפיה הקדמית"
+      },
+      "Tuna packaging used for the front ornament frame": {
+        "text": "אריזת הטונה ששימשה למסגרת העיטור הקדמית",
+        "html": "אריזת הטונה ששימשה למסגרת העיטור הקדמית"
+      },
+      "Limited Edition of 30 Units Till the End of Time\nHeavyweight 100% Organic Cotton 420GSM French Terry Sweatshirt in Light Cream": {
+        "text": "מהדורה מוגבלת של 30 יחידות עד קץ הזמן\nסווטשירט פרנץ׳ טרי עבה, 100% כותנה אורגנית, 420 גרם למ״ר, בצבע קרם בהיר",
+        "html": "מהדורה מוגבלת של 30 יחידות עד קץ הזמן\nסווטשירט פרנץ׳ טרי עבה, 100% כותנה אורגנית, 420 גרם למ״ר, בצבע קרם בהיר"
+      },
+      "Front puff print screen printed design\n\nBack puff print screen printed design\n\nMachine washable, 30 degrees delicate\n\nDo not machine dry, it will lead to shrinkage!\n\nMade in Palestine, Israel, China, Turkey, Cannan.": {
+        "text": "הדפס רשת תפוח בחזיתהדפס רשת תפוח בגבכביסה עדינה ב־30 מעלותאין לייבש במייבש — הדבר יגרום להתכווצות!מיוצר בפלסטין, ישראל, סין, טורקיה, כנען",
+        "html": "<li>הדפס רשת תפוח בחזית</li><li>הדפס רשת תפוח בגב</li><li>כביסה עדינה ב־30 מעלות</li><li>אין לייבש במייבש — הדבר יגרום להתכווצות!</li><li>מיוצר בפלסטין, ישראל, סין, טורקיה, כנען</li>"
+      },
+      "The H. Berthold Typefoundry, renowned for crafting high-quality typefaces, was founded in 1858 by Hermann Berthold in Berlin. Among being responsible for Akzidenz-Grotesk (released 1896) and considered by many as the mother of all sans serifs, it happens to be that The Berthold Typefoundry is also responsible for the first type specimin–introdocing what is considered as the first modern Hebrew typeface: Frank-Rühl, design by Rafael Frank in 1920.": {
+        "text": "בית האותיות ה׳ ברתולד, שנודע בגופנים האיכותיים שיצר, נוסד בברלין ב־1858 בידי הרמן ברתולד. לצד אחריותו לאקצידנץ־גרוטסק (שיצא ב־1896 ונחשב בעיני רבים לאם הגופנים נטולי התגים), בית האותיות היה אחראי גם לספר הדוגמאות הראשון שהציג את פרנק־ריהל, הנחשב לגופן העברי המודרני הראשון ועוצב בידי רפאל פרנק ב־1920.",
+        "html": "בית האותיות ה׳ ברתולד, שנודע בגופנים האיכותיים שיצר, נוסד בברלין ב־1858 בידי הרמן ברתולד. לצד אחריותו לאקצידנץ־גרוטסק (שיצא ב־1896 ונחשב בעיני רבים לאם הגופנים נטולי התגים), בית האותיות היה אחראי גם לספר הדוגמאות הראשון שהציג את פרנק־ריהל, הנחשב לגופן העברי המודרני הראשון ועוצב בידי רפאל פרנק ב־1920."
+      },
+      "This tee is a tribute both to the actual distributing type foundry and the font itself. The front design introduces an adaptation of the books cover with gothic Hebrew lettering and Art Nouveau ornaments with post William Morris Kelmscott_Press ornaments and bookbinding style.": {
+        "text": "הפריט הוא מחווה גם לבית האותיות שהפיץ את הגופן וגם לגופן עצמו. העיצוב הקדמי מציג עיבוד לכריכת הספר, עם אותיות עבריות גותיות ועיטורי אר נובו בהשראת העיטורים וסגנון הכריכה של ויליאם מוריס ודפוס קלמסקוט.",
+        "html": "הפריט הוא מחווה גם לבית האותיות שהפיץ את הגופן וגם לגופן עצמו. העיצוב הקדמי מציג עיבוד לכריכת הספר, עם אותיות עבריות גותיות ועיטורי אר נובו בהשראת העיטורים וסגנון הכריכה של <a href=\"https://en.wikipedia.org/wiki/William_Morris\">ויליאם מוריס</a> ו<a href=\"https://en.wikipedia.org/wiki/Kelmscott_Press\">דפוס קלמסקוט</a>."
+      },
+      "Hebrew cover of 1924 Berthold specimen (reference for the front design)": {
+        "text": "הכריכה העברית של ספר דוגמאות ברתולד, 1924 — מקור ההשראה לעיצוב הקדמי",
+        "html": "הכריכה העברית של ספר דוגמאות ברתולד, 1924 — מקור ההשראה לעיצוב הקדמי"
+      },
+      "Back design with Yiddish type saying “Art of the Shameless Bluff”": {
+        "text": "עיצוב הגב עם כיתוב ביידיש: ״אמנות הבלוף חסר הבושה״",
+        "html": "עיצוב הגב עם כיתוב ביידיש: ״אמנות הבלוף חסר הבושה״"
+      },
+      "1924 Berthold specimen elements double spread": {
+        "text": "כפולת אלמנטים מתוך ספר דוגמאות ברתולד, 1924",
+        "html": "כפולת אלמנטים מתוך ספר דוגמאות ברתולד, 1924"
+      },
+      "Limited Edition of 100 Units Till the End of Time\nHeavyweight 100% Cotton 320GSM Canvas Tote Bag in Dark Green": {
+        "text": "מהדורה מוגבלת של 100 יחידות עד קץ הזמן\nתיק קנבס עבה, 100% כותנה, 320 גרם למ״ר, בצבע ירוק כהה",
+        "html": "מהדורה מוגבלת של 100 יחידות עד קץ הזמן\nתיק קנבס עבה, 100% כותנה, 320 גרם למ״ר, בצבע ירוק כהה"
+      },
+      "This design is inspired by a play on words–the Hebrew word for “Sale”. In Hebrew, the word “sale” (mivtza) has two meanings–the first meaning refers to the application in the world of commerce, consumption, and consumerism. The second means “operation” and is primarily associated with military operations–here’s a  long list of them. \nAs it turns out, we love sales (mivtzas) of all kinds! Below are some examples of some classic Israeli “sale stickers”, followed by a bunch of commonly used typefaces and letterings meaning “sale”.": {
+        "text": "העיצוב נולד ממשחק על המילה ״מבצע״. בעברית יש לה שתי משמעויות: הראשונה שייכת לעולמות המסחר, הצריכה והצרכנות; השנייה מזוהה בעיקר עם פעילות צבאית — הנה רשימה ארוכה של מבצעים.\nמתברר שאנחנו אוהבים מבצעים מכל הסוגים! בהמשך מופיעות דוגמאות למדבקות ״מבצע״ ישראליות קלאסיות, ואחריהן מבחר גופנים ועיצובי אותיות נפוצים של המילה ״מבצע״.",
+        "html": "העיצוב נולד ממשחק על המילה ״מבצע״. בעברית יש לה שתי משמעויות: הראשונה שייכת לעולמות המסחר, הצריכה והצרכנות; השנייה מזוהה בעיקר עם פעילות צבאית — הנה <a href=\"https://en.wikipedia.org/wiki/List_of_Israel_Defense_Forces_operations\">רשימה ארוכה של מבצעים</a>.\nמתברר שאנחנו אוהבים מבצעים מכל הסוגים! בהמשך מופיעות דוגמאות למדבקות ״מבצע״ ישראליות קלאסיות, ואחריהן מבחר גופנים ועיצובי אותיות נפוצים של המילה ״מבצע״."
+      },
+      "Limited Edition of 50 Units Till the End of Time\nHeavyweight 100% Cotton 230GSM Drop Shoulder Tee in Light Cream": {
+        "text": "מהדורה מוגבלת של 50 יחידות עד קץ הזמן\nחולצת טי עבה בגזרת כתף שמוטה, 100% כותנה, 230 גרם למ״ר, בצבע קרם בהיר",
+        "html": "מהדורה מוגבלת של 50 יחידות עד קץ הזמן\nחולצת טי עבה בגזרת כתף שמוטה, 100% כותנה, 230 גרם למ״ר, בצבע קרם בהיר"
+      },
+      "Front and Back two color screen printed design\n\nWide crewneck\n\nMachine washable, 30 degrees delicate\n\nTo avoid shrinkage, do not machine dry!\n\nMade in Palestine, Israel, China, Turkey, Cannan": {
+        "text": "הדפסי רשת בשני צבעים בחזית ובגבמפתח צוואר עגול ורחבכביסה עדינה ב־30 מעלותלמניעת התכווצות, אין לייבש במייבש!מיוצר בפלסטין, ישראל, סין, טורקיה, כנען",
+        "html": "<li>הדפסי רשת בשני צבעים בחזית ובגב</li><li>מפתח צוואר עגול ורחב</li><li>כביסה עדינה ב־30 מעלות</li><li>למניעת התכווצות, אין לייבש במייבש!</li><li>מיוצר בפלסטין, ישראל, סין, טורקיה, כנען</li>"
+      },
+      "The Synthetic Authentic tee is a design that incorporates memories of a child born in the late 80s coming from a diverse mixture of Moroccan, Libian, and Bulgarian descent and traveling between Israel and the US as a result the divorce of his parents.": {
+        "text": "חולצת ״אותנטי סינתטי״ משלבת זיכרונות של ילד שנולד בסוף שנות ה־80, ממוצא מרוקאי, לובי ובולגרי, ונע בין ישראל לארצות הברית בעקבות גירושי הוריו.",
+        "html": "חולצת ״אותנטי סינתטי״ משלבת זיכרונות של ילד שנולד בסוף שנות ה־80, ממוצא מרוקאי, לובי ובולגרי, ונע בין ישראל לארצות הברית בעקבות גירושי הוריו."
+      },
+      "Synthetic Authentic is a paradox hinting at the back image, an iconic Israeli artificial sweetener manufactured by Sukrazit (and an ordinary household object of 80’s-90’s Israel).": {
+        "text": "״אותנטי סינתטי״ הוא פרדוקס הרומז לדימוי בגב החולצה: הממתיק המלאכותי הישראלי האיקוני של סוכרזית, שהיה חפץ ביתי נפוץ בישראל של שנות ה־80 וה־90.",
+        "html": "״אותנטי סינתטי״ הוא פרדוקס הרומז לדימוי בגב החולצה: הממתיק המלאכותי הישראלי האיקוני של <a href=\"https://sucrazit.co.il/\">סוכרזית</a>, שהיה חפץ ביתי נפוץ בישראל של שנות ה־80 וה־90."
+      },
+      "Limited Edition of 30 Units Till the End of Time\nHeavyweight 100% Organic Cotton 420GSM French Terry Sweatshirt in Bright Khaki": {
+        "text": "מהדורה מוגבלת של 30 יחידות עד קץ הזמן\nסווטשירט פרנץ׳ טרי עבה, 100% כותנה אורגנית, 420 גרם למ״ר, בצבע חאקי בהיר",
+        "html": "מהדורה מוגבלת של 30 יחידות עד קץ הזמן\nסווטשירט פרנץ׳ טרי עבה, 100% כותנה אורגנית, 420 גרם למ״ר, בצבע חאקי בהיר"
+      },
+      "Front puff print screen printed design\n\nTwo-color screen printed design on back\n\nSleeves screen printed design\n\nMachine washable, 30 degrees delicate\n\nDo not machine dry, it will lead to shrinkage!\n\nMade in Palestine, Israel, China, Turkey, Cannan.": {
+        "text": "הדפס רשת תפוח בחזיתהדפס רשת בשני צבעים בגבהדפסי רשת בשרווליםכביסה עדינה ב־30 מעלותאין לייבש במייבש — הדבר יגרום להתכווצות!מיוצר בפלסטין, ישראל, סין, טורקיה, כנען",
+        "html": "<li>הדפס רשת תפוח בחזית</li><li>הדפס רשת בשני צבעים בגב</li><li>הדפסי רשת בשרוולים</li><li>כביסה עדינה ב־30 מעלות</li><li>אין לייבש במייבש — הדבר יגרום להתכווצות!</li><li>מיוצר בפלסטין, ישראל, סין, טורקיה, כנען</li>"
+      },
+      "Edward Bernays was an Austrian-American pioneer considered to be The Father of public relations (also the person who coined the term P.R) and propaganda–sometimes referred to as the \"father of public relations”. Bernays was a nephew of Sigmund Freud and used psychoanalytic principles all throughout his work.": {
+        "text": "אדוארד ברנייז היה חלוץ אוסטרי־אמריקאי בתחום יחסי הציבור והתעמולה, ונחשב ל״אבי יחסי הציבור״ — וגם למי שטבע את המונח. ברנייז היה אחיינו של זיגמונד פרויד והשתמש בעקרונות פסיכואנליטיים לאורך עבודתו.",
+        "html": "אדוארד ברנייז היה חלוץ אוסטרי־אמריקאי בתחום יחסי הציבור והתעמולה, ונחשב ל״אבי יחסי הציבור״ — וגם למי שטבע את המונח. ברנייז היה אחיינו של זיגמונד פרויד והשתמש בעקרונות פסיכואנליטיים לאורך עבודתו."
+      },
+      "He wrote several books, including \"Propaganda\" and \"Crystallizing Public Opinion,\" which helped establish the field of public relations. Bernays is known for his work on behalf of companies and governments and his use of psychological techniques to influence public opinion and behavior. The design presents details from his biography, campaigns, and historical impact on the medium of advertising and P.R.": {
+        "text": "הוא כתב כמה ספרים, ובהם ״תעמולה״ ו״גיבוש דעת הקהל״, שסייעו לבסס את תחום יחסי הציבור. ברנייז נודע בעבודתו למען חברות וממשלות ובשימוש בטכניקות פסיכולוגיות להשפעה על דעת הקהל ועל התנהגות. העיצוב מציג פרטים מהביוגרפיה שלו, מהקמפיינים שלו ומהשפעתו ההיסטורית על הפרסום ויחסי הציבור.",
+        "html": "הוא כתב כמה ספרים, ובהם ״תעמולה״ ו״גיבוש דעת הקהל״, שסייעו לבסס את תחום יחסי הציבור. ברנייז נודע בעבודתו למען חברות וממשלות ובשימוש בטכניקות פסיכולוגיות להשפעה על דעת הקהל ועל התנהגות. העיצוב מציג פרטים מהביוגרפיה שלו, מהקמפיינים שלו ומהשפעתו ההיסטורית על הפרסום ויחסי הציבור."
+      },
+      "Original screen for IDF rank printing": {
+        "text": "רשת מקורית להדפסת דרגות צה״ל",
+        "html": "רשת מקורית להדפסת דרגות צה״ל"
+      },
+      "IDF Ranks": {
+        "text": "דרגות צה״ל",
+        "html": "דרגות צה״ל"
+      },
+      "Major rank Leaf - “Falafel”": {
+        "text": "עלה בדרגת רב־סרן — ״פלאפל״",
+        "html": "עלה בדרגת רב־סרן — ״פלאפל״"
+      },
+      "1929 Lucky Strike Ad": {
+        "text": "מודעת לאקי סטרייק, 1929",
+        "html": "מודעת לאקי סטרייק, 1929"
+      },
+      "1940's Chiquita banana mascot": {
+        "text": "דמות הבננה של צ׳יקיטה משנות ה־40",
+        "html": "דמות הבננה של צ׳יקיטה משנות ה־40"
+      },
+      "Boxing stamping standard emblem": {
+        "text": "סמל תקני להחתמה על אריזות",
+        "html": "סמל תקני להחתמה על אריזות"
+      },
+      "Monitin (Israeli Magazine) logo constructed with classic American typeface ITC Bookman letter bits": {
+        "text": "לוגו כתב העת הישראלי ״מוניטין״, המורכב מחלקי אותיות של הגופן האמריקאי הקלאסי ITC Bookman",
+        "html": "לוגו כתב העת הישראלי ״מוניטין״, המורכב מחלקי אותיות של הגופן האמריקאי הקלאסי ITC Bookman"
+      },
+      "Israeli “Time” cigarette ad targeting female smokers mid the 80s": {
+        "text": "מודעה ישראלית לסיגריות ״טיים״ המיועדת לנשים מעשנות, אמצע שנות ה־80",
+        "html": "מודעה ישראלית לסיגריות ״טיים״ המיועדת לנשים מעשנות, אמצע שנות ה־80"
+      },
+      "The Front Design is inspired  Barneys’s Jewish descent, his role on the Committee on Public Committee on Public Information, and his position as a political advisor for several US presidents. The design incorporates a leaf from the IDF ranks, also called “Falafel” (The factory that printed this design also prints the IDF ranks) arranged in a formation inspired by the Betsy Ross flag, an early design for the flag of the United States.": {
+        "text": "העיצוב הקדמי שואב השראה ממוצאו היהודי של ברנייז, מעבודתו בוועדה למידע ציבורי ומתפקידו כיועץ פוליטי לכמה נשיאי ארצות הברית. הוא משלב את העלה מדרגות צה״ל, המכונה גם ״פלאפל״ — המפעל שהדפיס את העיצוב מדפיס גם דרגות צה״ל — במבנה בהשראת דגל בטסי רוס, גרסה מוקדמת של דגל ארצות הברית.",
+        "html": "העיצוב הקדמי שואב השראה ממוצאו היהודי של ברנייז, מעבודתו ב<a href=\"https://en.wikipedia.org/wiki/Committee_on_Public_Information\">וועדה למידע ציבורי</a> ומתפקידו כיועץ פוליטי לכמה נשיאי ארצות הברית. הוא משלב את העלה מ<a href=\"https://en.wikipedia.org/wiki/Israel_Defense_Forces_ranks\">דרגות צה״ל</a>, המכונה גם ״פלאפל״ — המפעל שהדפיס את העיצוב מדפיס גם דרגות צה״ל — במבנה בהשראת <a href=\"https://en.wikipedia.org/wiki/Betsy_Ross_flag\">דגל בטסי רוס</a>, גרסה מוקדמת של <a href=\"https://en.wikipedia.org/wiki/Flag_of_the_United_States\">דגל ארצות הברית</a>."
+      },
+      "The Back and Sleeves Design introduce details from a number of mystical campaigns by Bernays:": {
+        "text": "העיצוב בגב ובשרוולים מציג פרטים מכמה מהקמפיינים המיתולוגיים של ברנייז:",
+        "html": "העיצוב בגב ובשרוולים מציג פרטים מכמה מהקמפיינים המיתולוגיים של ברנייז:"
+      },
+      "The campaign for the Beech-Nut packing company that helped make bacon and eggs the iconic American breakfast we know today, done with the help of 4,500 physicians. Watch Barneys break it down in his own words in this video.\n\nThe 1929 “Torches of Freedom”  campaign for the American Tobacco Company to encourage females to smoke and break the male taboo on females smoking in public.\n\nThe United Fruit Company hired Bernays in the 1940’s afterJuan José Arévalo had been elected and formally legalized the communist Guatemalan Party of Labour. The United Fruit Company (UFC), whose highly profitable business had been affected by the end to exploitative labor practices in Guatemala, engaged in an influential lobbying campaign to persuade the U.S. to overthrow the Guatemalan government.": {
+        "text": "הקמפיין לחברת המזון Beech-Nut שסייע להפוך בייקון וביצים לארוחת הבוקר האמריקאית האיקונית, בעזרת 4,500 רופאים. ברנייז מסביר זאת במילותיו בסרטון הזה.קמפיין ״לפידי החופש״ מ־1929 עבור חברת הטבק האמריקאית, שנועד לעודד נשים לעשן ולשבור את הטאבו הגברי על עישון נשים בציבור.חברת הפירות המאוחדת שכרה את ברנייז בשנות ה־40, לאחר בחירתו של חואן חוסה ארוואלו וההכרה החוקית במפלגת העבודה הגואטמלית הקומוניסטית. חברת הפירות המאוחדת, שעסקיה הרווחיים נפגעו מהפסקת שיטות העסקה נצלניות בגואטמלה, ניהלה מסע שדלנות רב־השפעה כדי לשכנע את ארצות הברית להפיל את הממשלה הגואטמלית.",
+        "html": "<li>הקמפיין לחברת המזון Beech-Nut שסייע להפוך בייקון וביצים לארוחת הבוקר האמריקאית האיקונית, בעזרת 4,500 רופאים. <a href=\"https://www.youtube.com/watch?v=L9Unj3Jj1uA\">ברנייז מסביר זאת במילותיו בסרטון הזה.</a></li><li>קמפיין ״<a href=\"https://en.wikipedia.org/wiki/Torches_of_Freedom\">לפידי החופש</a>״ מ־1929 עבור חברת הטבק האמריקאית, שנועד לעודד נשים לעשן ולשבור את הטאבו הגברי על עישון נשים בציבור.</li><li>חברת הפירות המאוחדת שכרה את ברנייז בשנות ה־40, לאחר בחירתו של <a href=\"https://en.wikipedia.org/wiki/Juan_Jos%C3%A9_Ar%C3%A9valo\">חואן חוסה ארוואלו</a> וההכרה החוקית ב<a href=\"https://en.wikipedia.org/wiki/Guatemalan_Party_of_Labour\">מפלגת העבודה הגואטמלית</a> הקומוניסטית. <a href=\"https://en.wikipedia.org/wiki/United_Fruit_Company\">חברת הפירות המאוחדת</a>, שעסקיה הרווחיים נפגעו מהפסקת שיטות העסקה נצלניות בגואטמלה, ניהלה מסע שדלנות רב־השפעה כדי לשכנע את ארצות הברית להפיל את הממשלה הגואטמלית.</li>"
+      },
+      "Because the life and actions of Edward Bernays are so rich with mind-blowing stories, here is a list of references to learn more for those of you who want more:": {
+        "text": "חייו ופועלו של אדוארד ברנייז מלאים בסיפורים מדהימים. למי שרוצה להעמיק, הנה כמה מקורות נוספים:",
+        "html": "חייו ופועלו של אדוארד ברנייז מלאים בסיפורים מדהימים. למי שרוצה להעמיק, הנה כמה מקורות נוספים:"
+      },
+      "Century of the Self - Episode 1/4 - Focusing The story of the relationship between Sigmund Freud and his American nephew, Edward Bernays.\n\nPodcast in Hebrew by Eran Minhar at Kan overviewing the some of Edward Barneys campaigns , Israeli Public Broadcasting Corporation\n\nNY Times article from 1995 concluding the life of Edward Barnays\n\nInterview Edward Bernays on Letterman, April 4, 1985\n\nInterview Edward Bernays at Ball State University, October 23, 1986": {
+        "text": "המאה של העצמי — פרק 1 מתוך 4, העוסק בקשר בין זיגמונד פרויד לאחיינו האמריקאי אדוארד ברנייז.הסכת בעברית של ערן מינהר בכאן, הסוקר כמה מהקמפיינים של ברנייז.כתבה בניו יורק טיימס מ־1995 המסכמת את חייו של אדוארד ברנייז.ראיון עם אדוארד ברנייז אצל לטרמן, 4 באפריל 1985.ראיון עם אדוארד ברנייז באוניברסיטת בול סטייט, 23 באוקטובר 1986.",
+        "html": "<li><a href=\"https://www.youtube.com/watch?t=9s&amp;v=DnPmg0R1M04\">המאה של העצמי — פרק 1 מתוך 4</a>, העוסק בקשר בין זיגמונד פרויד לאחיינו האמריקאי אדוארד ברנייז.</li><li><a href=\"https://www.kan.org.il/Podcast/item.aspx?pid=15322\">הסכת</a> בעברית של ערן מינהר בכאן, הסוקר כמה מהקמפיינים של ברנייז.</li><li><a href=\"https://www.nytimes.com/1995/03/10/obituaries/edward-bernays-father-public-relations-leader-opinion-making-dies-103.html\">כתבה בניו יורק טיימס</a> מ־1995 המסכמת את חייו של אדוארד ברנייז.</li><li><a href=\"https://www.youtube.com/watch?t=87s&amp;v=y-4AulOuCPI\">ראיון</a> עם אדוארד ברנייז אצל לטרמן, 4 באפריל 1985.</li><li><a href=\"https://www.youtube.com/watch?t=41s&amp;v=rg1jOLBzvvY\">ראיון</a> עם אדוארד ברנייז באוניברסיטת בול סטייט, 23 באוקטובר 1986.</li>"
+      },
+      "Limited Edition of 50 Units(Each Kind) Till the End of Time\nHeavyweight 100% Organic Cotton 420GSM French Terry Hooded Pullover/Sweatshirt in Light Orange": {
+        "text": "מהדורה מוגבלת של 50 יחידות מכל סוג עד קץ הזמן\nקפוצ׳ון / סווטשירט פרנץ׳ טרי עבה, 100% כותנה אורגנית, 420 גרם למ״ר, בצבע כתום בהיר",
+        "html": "מהדורה מוגבלת של 50 יחידות מכל סוג עד קץ הזמן\nקפוצ׳ון / סווטשירט פרנץ׳ טרי עבה, 100% כותנה אורגנית, 420 גרם למ״ר, בצבע כתום בהיר"
+      },
+      "Until late 19th century, in most cases, retail goods didn’t have a fixed price. Customers would be expected to haggle with store clerks to get the best price [citation needed]  with the exception of The Quakers, who found it immoral for different customers to pay different prices (now known as price discrimination).": {
+        "text": "עד סוף המאה ה־19, לרוב מוצרי הקמעונאות לא היה מחיר קבוע. לקוחות נדרשו להתמקח עם המוכרים כדי להשיג את המחיר הטוב ביותר [דרוש מקור]. יוצאי דופן היו הקווייקרים, שראו חוסר מוסריות בכך שלקוחות שונים משלמים מחירים שונים — מה שמכונה כיום אפליית מחירים.",
+        "html": "עד סוף המאה ה־19, לרוב מוצרי ה<a href=\"https://en.wikipedia.org/wiki/Retail\">קמעונאות</a> לא היה מחיר קבוע. לקוחות נדרשו <a href=\"https://en.wikipedia.org/wiki/Bargaining\">להתמקח</a> עם המוכרים כדי להשיג את המחיר הטוב ביותר [<a href=\"https://en.wikipedia.org/wiki/Wikipedia:Citation_needed\">דרוש מקור</a>]. יוצאי דופן היו ה<a href=\"https://en.wikipedia.org/wiki/Quaker\">קווייקרים</a>, שראו חוסר מוסריות בכך שלקוחות שונים משלמים מחירים שונים — מה שמכונה כיום <a href=\"https://en.wikipedia.org/wiki/Price_discrimination\">אפליית מחירים</a>."
+      },
+      "The Pennsylvania Quakers\" \"honest price\" was institutionalized in 1874 by John Wanamaker when he opened his eponymous department store in Philadelphia. A renowned innovator of the highest integrity, Wanamaker was the first retailer to offer money-back guarantees. He also invented the price tag: \"A devout Christian, he believed that if everyone was equal before God, then everyone should be equal before price.\" Before Wanamaker's, every purchase was open to a haggle.": {
+        "text": "רעיון ״המחיר ההוגן״ של הקווייקרים מפנסילבניה מוסד ב־1874 בידי ג׳ון וונאמייקר, כשפתח בפילדלפיה את חנות הכלבו הנושאת את שמו. וונאמייקר, חדשן שנודע ביושרתו, היה הקמעונאי הראשון שהציע אחריות להחזר כספי. הוא גם המציא את תג המחיר: ״כנוצרי אדוק הוא האמין שאם כולם שווים בפני האל, על כולם להיות שווים גם בפני המחיר.״ לפני וונאמייקר, כל קנייה הייתה פתוחה למיקוח.",
+        "html": "רעיון ״המחיר ההוגן״ של הקווייקרים מפנסילבניה מוסד ב־1874 בידי <a href=\"https://en.wikipedia.org/wiki/John_Wanamaker\">ג׳ון וונאמייקר</a>, כשפתח בפילדלפיה את <a href=\"https://en.wikipedia.org/wiki/Wanamaker%27s\">חנות הכלבו הנושאת את שמו</a>. וונאמייקר, חדשן שנודע ביושרתו, היה הקמעונאי הראשון שהציע אחריות להחזר כספי. הוא גם המציא את תג המחיר: ״כנוצרי אדוק הוא האמין שאם כולם שווים בפני האל, על כולם להיות שווים גם בפני המחיר.״ לפני וונאמייקר, כל קנייה הייתה פתוחה למיקוח."
+      },
+      "Macy's in New York (Rowland Hussey Macy was a Quaker) also began affixing physical tags to items in the 1870s in order to do away with haggling in their stores. This allowed shorter training time for new clerks (who would no longer need to know the art of haggling nor the range of accepted prices for every item) and allowed clerks to serve more customers.": {
+        "text": "גם מייסי׳ס בניו יורק (מייסדה רולנד האסי מייסי היה קווייקר) החלה להצמיד תגיות פיזיות למוצרים בשנות ה־70 של המאה ה־19, כדי לבטל את המיקוח בחנויות. הדבר קיצר את זמן ההכשרה של מוכרים חדשים, שכבר לא נדרשו להכיר את אמנות המיקוח ואת טווח המחירים לכל פריט, ואפשר להם לשרת יותר לקוחות.",
+        "html": "גם <a href=\"https://en.wikipedia.org/wiki/Macy%27s\">מייסי׳ס</a> בניו יורק (מייסדה <a href=\"https://en.wikipedia.org/wiki/Rowland_Hussey_Macy\">רולנד האסי מייסי</a> היה קווייקר) החלה להצמיד תגיות פיזיות למוצרים בשנות ה־70 של המאה ה־19, כדי לבטל את המיקוח בחנויות. הדבר קיצר את זמן ההכשרה של מוכרים חדשים, שכבר לא נדרשו להכיר את אמנות המיקוח ואת טווח המחירים לכל פריט, ואפשר להם לשרת יותר לקוחות."
+      },
+      "A digital home for Dan Reisinger's letterforms. Initiated by Neil Cohen and Ben Nathan in collaboration with the National Library of Israel, the project brings lettering from Reisinger's archive into contemporary use.": {
+        "text": "בית דיגיטלי לאותיות של דן ריזינגר. הפרויקט, ביוזמת ניל כהן ובן נתן ובשיתוף הספרייה הלאומית, מביא את האותיות מארכיונו של ריזינגר לשימוש עכשווי.",
+        "html": "בית דיגיטלי לאותיות של דן ריזינגר. הפרויקט, ביוזמת ניל כהן ובן נתן ובשיתוף הספרייה הלאומית, מביא את האותיות מארכיונו של ריזינגר לשימוש עכשווי."
+      },
+      "Six Hebrew and Latin type families, spanning fourteen styles, were developed by Ben Nathan at Hafontia from Reisinger's original work. The website connects archival sketches and applications with moving type specimens, inviting visitors to explore, try and download the fonts for free.": {
+        "text": "בן נתן מהפונטיה פיתח מתוך עבודותיו המקוריות של ריזינגר שש משפחות גופנים בעברית ובלטינית, הכוללות ארבעה־עשר סגנונות. האתר מחבר בין סקיצות ויישומים ארכיוניים לדוגמאות אותיות בתנועה, ומזמין להתנסות בגופנים ולהוריד אותם בחינם.",
+        "html": "בן נתן מהפונטיה פיתח מתוך עבודותיו המקוריות של ריזינגר שש משפחות גופנים בעברית ובלטינית, הכוללות ארבעה־עשר סגנונות. האתר מחבר בין סקיצות ויישומים ארכיוניים לדוגמאות אותיות בתנועה, ומזמין להתנסות בגופנים ולהוריד אותם בחינם."
+      },
+      "Credits": {
+        "text": "קרדיטים"
+      },
+      "Initiative — Neil Cohen, Ben Nathan": {
+        "text": "יוזמה — ניל כהן, בן נתן",
+        "html": "יוזמה — ניל כהן, בן נתן"
+      },
+      "Website Design — Neil Cohen": {
+        "text": "עיצוב אתר — ניל כהן",
+        "html": "עיצוב אתר — ניל כהן"
+      },
+      "Original Lettering — Dan Reisinger": {
+        "text": "עיצוב האותיות המקורי — דן ריזינגר",
+        "html": "עיצוב האותיות המקורי — דן ריזינגר"
+      },
+      "Type Design & Digitization — Ben Nathan / Hafontia": {
+        "text": "עיצוב גופנים ודיגיטציה — בן נתן / הפונטיה",
+        "html": "עיצוב גופנים ודיגיטציה — בן נתן / הפונטיה"
+      },
+      "In Collaboration With — Ilan Reisinger, National Library of Israel": {
+        "text": "בשיתוף — אילן ריזינגר, הספרייה הלאומית",
+        "html": "בשיתוף — אילן ריזינגר, הספרייה הלאומית"
+      },
+      "Dressed to Protest is a social design and fashion fair initiated by Neil Cohen and the restaurant Haachim, under the satirical brand CON. The event transforms fashion into a platform for civic expression, turning garments into tools of resistance, empathy, and identity.": {
+        "text": "״לובשים מחאה״ הוא יריד עיצוב חברתי ואופנה שיזמו ניל כהן ומסעדת האחים במסגרת המותג הסאטירי קון. האירוע הופך אופנה לבמה לביטוי אזרחי, ובגדים לכלים של התנגדות, אמפתיה וזהות.",
+        "html": "״לובשים מחאה״ הוא יריד עיצוב חברתי ואופנה שיזמו ניל כהן ומסעדת האחים במסגרת המותג הסאטירי קון. האירוע הופך אופנה לבמה לביטוי אזרחי, ובגדים לכלים של התנגדות, אמפתיה וזהות."
+      },
+      "The fair brought together designers, artists, and activists to create and exhibit protest-wear, from graphic T-shirts and handmade pieces to symbolic accessories and upcycled clothing. Each piece carried a message, reflecting on moments of protest, solidarity, and collective memory.": {
+        "text": "היריד הפגיש מעצבים, אמנים ופעילים ליצירה ולהצגה של בגדי מחאה — מחולצות גרפיות ופריטים בעבודת יד ועד אביזרים סמליים ובגדים בשימוש מחודש. כל פריט נשא מסר והתייחס לרגעים של מחאה, סולידריות וזיכרון משותף.",
+        "html": "היריד הפגיש מעצבים, אמנים ופעילים ליצירה ולהצגה של בגדי מחאה — מחולצות גרפיות ופריטים בעבודת יד ועד אביזרים סמליים ובגדים בשימוש מחודש. כל פריט נשא מסר והתייחס לרגעים של מחאה, סולידריות וזיכרון משותף."
+      },
+      "Dressed to Protest challenged the boundary between fashion and activism, asking what it means to wear one's beliefs in public. The initiative received wide attention across media and culture, resonating with a public eager for meaningful design in a time of social tension.": {
+        "text": "״לובשים מחאה״ בחן את הגבול בין אופנה לאקטיביזם ואת המשמעות של לבישת האמונות שלנו במרחב הציבורי. היוזמה זכתה לתשומת לב רחבה בתקשורת ובתרבות ופגשה ציבור המחפש עיצוב בעל משמעות בתקופה של מתח חברתי.",
+        "html": "״לובשים מחאה״ בחן את הגבול בין אופנה לאקטיביזם ואת המשמעות של לבישת האמונות שלנו במרחב הציבורי. היוזמה זכתה לתשומת לב רחבה בתקשורת ובתרבות ופגשה ציבור המחפש עיצוב בעל משמעות בתקופה של מתח חברתי."
+      },
+      "Initiative — Neil Cohen, Haachim": {
+        "text": "יוזמה — ניל כהן, האחים",
+        "html": "יוזמה — ניל כהן, האחים"
+      },
+      "Creative Direction & Visual Identity — Neil Cohen": {
+        "text": "ניהול קריאייטיב וזהות חזותית — ניל כהן",
+        "html": "ניהול קריאייטיב וזהות חזותית — ניל כהן"
+      },
+      "Participants — Oren Fisher, Itai Rave, Amnon Illouz, Ariel Rubinstein, Ben Nathan, David Tartekover, Daniel Grumer, Yoav Gati, Yoav Einhar, Yossi Lamel, Yanek Iontef, Yasmin Malachi, Yael Bodashar, Yael Bartana, Lahav Halevi, Liora Bielski, Maya Helman, Michal Meshulam, Michal Shapira, Matan Iontef, Nadav Barkan, Nadav Machta, Noa Goffer, Nur Katz, Neil Cohen, Sani Arzi, Adi Eili, Idan Epstein, Studio Yom Sadeh, Studio ETC, Ron Robert Levy, Rachel Mugrabi, Shavit Yaakov, Shoham Smit, Shay Smania": {
+        "text": "משתתפים — אורן פישר, איתי רווה, אמנון אילוז, אריאל רובינשטיין, בן נתן, דוד טרטקובר, דניאל גרומר, יואב גתי, יואב עינהר, יוסי למל, ינק יונטף, יסמין מלאכי, יעל בודשאר, יעל ברתנא, להב הלוי, ליאורה בילסקי, מאיה הלמן, מיכל משולם, מיכל שפירא, מתן יונטף, נדב ברקן, נדב מחטה, נועה גופר, נור כץ, ניל כהן, סאני ארזי, עדי אילי, עידן אפשטיין, סטודיו יום שדה, סטודיו ETC, רון רוברט לוי, רחל מוגרבי, שביט יעקב, שוהם סמיט, שי סמניה",
+        "html": "משתתפים — אורן פישר, איתי רווה, אמנון אילוז, אריאל רובינשטיין, בן נתן, דוד טרטקובר, דניאל גרומר, יואב גתי, יואב עינהר, יוסי למל, ינק יונטף, יסמין מלאכי, יעל בודשאר, יעל ברתנא, להב הלוי, ליאורה בילסקי, מאיה הלמן, מיכל משולם, מיכל שפירא, מתן יונטף, נדב ברקן, נדב מחטה, נועה גופר, נור כץ, ניל כהן, סאני ארזי, עדי אילי, עידן אפשטיין, סטודיו יום שדה, סטודיו ETC, רון רוברט לוי, רחל מוגרבי, שביט יעקב, שוהם סמיט, שי סמניה"
+      },
+      "A social design initiative created by Neil Cohen via CON with HaAchim, supporting communities in the Gaza Envelope through a T-shirt collection inspired by local visual heritage.": {
+        "text": "יוזמת עיצוב חברתי שיצר ניל כהן במסגרת קון בשיתוף האחים, לתמיכה בקהילות עוטף עזה באמצעות קולקציית חולצות בהשראת המורשת החזותית המקומית.",
+        "html": "יוזמת עיצוב חברתי שיצר ניל כהן במסגרת קון בשיתוף האחים, לתמיכה בקהילות עוטף עזה באמצעות קולקציית חולצות בהשראת המורשת החזותית המקומית."
+      },
+      "Neil Cohen / CON - creator": {
+        "text": "ניל כהן / קון — יוצר",
+        "html": "ניל כהן / קון — יוצר"
+      },
+      "HaAchim - collaborator": {
+        "text": "האחים — שותפים",
+        "html": "האחים — שותפים"
+      },
+      "Ben Nathan / HaFontia Studio - typography collaboration": {
+        "text": "בן נתן / סטודיו הפונטיה — שיתוף פעולה טיפוגרפי",
+        "html": "בן נתן / סטודיו הפונטיה — שיתוף פעולה טיפוגרפי"
+      },
+      "Yanek Iontef and Daniel Grumer / Studio Fontef - typography collaboration": {
+        "text": "ינק יונטף ודניאל גרומר / סטודיו פונטף — שיתוף פעולה טיפוגרפי",
+        "html": "ינק יונטף ודניאל גרומר / סטודיו פונטף — שיתוף פעולה טיפוגרפי"
+      },
+      "Buy Bye was CON’s pop-up shop and installation for Jerusalem Design Week 2024, at Hansen House. A fictional Middle Eastern conglomerate set up shop in preparation for an impending flood or migration, offering a collection that moved between survival gear and luxury goods.": {
+        "text": "שלם שלום הייתה חנות הפופ־אפ והמיצב של קון בשבוע העיצוב ירושלים 2024, בבית הנסן. קונגלומרט מזרח־תיכוני שלא קיים פתח חנות לקראת מבול או הגירה קרבים, עם אוסף שנע בין ציוד הישרדות למוצרי מותרות."
+      },
+      "Cleaning supplies, clothing, printed cartons and everyday objects became vehicles for marketing, persuasion and casual propaganda. The shop brought CON’s fictional corporate world into a physical space, where familiar products carried unfamiliar promises.": {
+        "text": "חומרי ניקוי, בגדים, קרטונים מודפסים וחפצים יומיומיים הפכו לאמצעים לשיווק, שכנוע ותעמולה יומיומית. החנות העבירה את העולם התאגידי הבדיוני של קון אל מרחב פיזי, שבו מוצרים מוכרים נשאו הבטחות לא מוכרות."
+      },
+      "The objects explored the tension between consumerism and crisis: how design, marketing and desire operate in times of uncertainty. Playful and unsettling at once, they asked whether the next thing we consume is a necessity, a reassurance or a facade.": {
+        "text": "החפצים בחנו את המתח בין צרכנות למשבר: כיצד עיצוב, שיווק ותשוקה פועלים בזמנים של אי־ודאות. משעשעים ומטרידים בעת ובעונה אחת, הם שאלו אם הדבר הבא שנצרוך הוא צורך, הבטחה מרגיעה או מראית עין."
+      },
+      "Survival consumption runs through the collection. Packaging and branding turn national anxiety into things to take home, reflecting the contradictions of a culture that prepares for disaster through the language of abundance.": {
+        "text": "צריכת הישרדות עוברת כחוט השני באוסף. אריזה ומיתוג הופכים חרדה לאומית לחפצים שאפשר לקחת הביתה, ומשקפים את הסתירות של תרבות המתכוננת לאסון באמצעות שפה של שפע."
+      },
+      "Under the guise of a functioning shop, Buy Bye used design as critique. The tools of branding and marketing were turned back on the visitor, making the act of consumption part of the installation itself.": {
+        "text": "במסווה של חנות מתפקדת, שלם שלום השתמשה בעיצוב כביקורת. כלי המיתוג והשיווק הופנו בחזרה אל המבקרים, והפכו את פעולת הצריכה לחלק מהמיצב עצמו."
+      },
+      "Concept & Design — Neil Cohen / CON": {
+        "text": "הרעיון והעיצוב — ניל כהן / קון"
+      }
+    }
+  }
+}

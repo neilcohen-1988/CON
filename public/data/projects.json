@@ -1,0 +1,87 @@
+[
+  {
+    "id": "dan-reisinger-letters",
+    "displayTitle": "אותיות ריזינגר",
+    "title": "Dan Reisinger Letters",
+    "editorial": true,
+    "objectType": "Website",
+    "year": 2024,
+    "collaboration": "Hafontia",
+    "cover": {
+      "type": "image",
+      "src": "/media/projects/dan-reisinger-letters/work-cover-filled-2712af.webp",
+      "thumb": "/media/projects/dan-reisinger-letters/work-cover-filled-2712af-thumb.webp",
+      "width": 1200,
+      "height": 800,
+      "alt": "אותיות ריזינגר"
+    }
+  },
+  {
+    "id": "otef",
+    "displayTitle": "עוטף",
+    "title": "Otef",
+    "editorial": true,
+    "objectType": "Social design initiative",
+    "year": 2023,
+    "collaboration": "",
+    "cover": {
+      "type": "image",
+      "src": "/media/projects/otef/closeups-carosel-03-799158.webp",
+      "thumb": "/media/projects/otef/closeups-carosel-03-799158-thumb.webp",
+      "width": 1500,
+      "height": 1500,
+      "alt": "עוטף"
+    }
+  },
+  {
+    "id": "dressed-to-protest",
+    "displayTitle": "לובשים מחאה",
+    "title": "Dressed To Protest",
+    "editorial": true,
+    "objectType": "Art & Culture",
+    "year": 2023,
+    "collaboration": "CON / Haachim",
+    "cover": {
+      "type": "image",
+      "src": "/media/projects/dressed-to-protest/poster-wall-6d34eb.webp",
+      "thumb": "/media/projects/dressed-to-protest/poster-wall-6d34eb-thumb.webp",
+      "width": 1800,
+      "height": 1013,
+      "alt": "לובשים מחאה"
+    }
+  },
+  {
+    "id": "dudu-geva-was-here",
+    "displayTitle": "דודו גבע היה פה",
+    "title": "דודו גבע היה פה",
+    "editorial": true,
+    "objectType": "Exhibition & visual culture",
+    "year": null,
+    "collaboration": "קון × האחים × מוזיאון תל אביב לאמנות",
+    "cover": {
+      "type": "image",
+      "src": "/media/projects/dudu-geva-was-here/gallery-e56268.webp",
+      "thumb": "/media/projects/dudu-geva-was-here/gallery-e56268-thumb.webp",
+      "width": 1512,
+      "height": 856,
+      "alt": "עבודות דודו גבע"
+    }
+  },
+  {
+    "id": "jdw-buy-bye",
+    "displayTitle": "Buy Bye",
+    "title": "Buy Bye",
+    "editorial": true,
+    "objectType": "Installation & Pop-Up",
+    "year": 2024,
+    "collaboration": "Con × Jerusalem Design Week",
+    "cover": {
+      "type": "image",
+      "src": "/media/projects/jdw-buy-bye/photo-09.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Buy Bye installation, Jerusalem Design Week - photo-09",
+      "thumb": "/media/projects/jdw-buy-bye/photo-09-small.webp"
+    }
+  }
+]

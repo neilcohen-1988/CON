@@ -1,0 +1,401 @@
+{
+  "description": "Visually reviewed inspiration, process, documentary photography and video. Excludes product catalogue images and close-ups, flat artwork, logos, scans, layouts and standalone illustrations. Source project stories remain intact.",
+  "media": [
+    {
+      "src": "/media/2c2730937be3-Artboard-1.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/d3fdcc2befc9-Artboard-2.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/6c030a61c60a-Artboard-3.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/7491cd0c99cf-Artboard-4.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/64a90980b563-Artboard-5.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/647e935b9a6f-Artboard-1-copy-6.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/ddeffc831740-Artboard-1-copy.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/790c511b70f2-Slide-16_9---8.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/8fd14484c6fa-Slide-16_9---12.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/93fb59eb55aa-Slide-16_9---17.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/cbe7aa6ea224-Slide-16_9---19.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/dadb801918c6-Slide-16_9---21.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/80fdde2719f3-Slide-16_9---38.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/c6498a538b9a-Slide-16_9---39.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/7968624f7239-Slide-16_9---40.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/f78f6a1d0c1f-Slide-16_9---41.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/7f0972b7e930-Slide-16_9---44.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/5548b0cb0c1e-Slide-16_9---49.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/6f7f7a4f60f7-Slide-16_9---51.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/5284e1e24801-Slide-16_9---55.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/48135f941727-Slide-16_9---56.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/c0141c68d337-Slide-16_9---57.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/e4c3c2202dca-Slide-16_9---59.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/024e1653df8f-Slide-16_9---116.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/15faecf4ca1a-_B1A1123-copy.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/595ea46f8f3b-_B1A1161-copy.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/45bd00eb18e9-_B1A1192-copy.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/3cdd4ff783c0-_B1A1200-copy.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/736a3967a5a7-_B1A1223-copy.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/f9c08ca89379-ezgif.com-gif-maker.gif",
+      "kind": "video"
+    },
+    {
+      "src": "/media/bc87ee3cf6d9-ezgif.com-gif-maker-copy.gif",
+      "kind": "video"
+    },
+    {
+      "src": "/media/d61cab23ec32-DAVID.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/4fa2608a402f-ezgif.com-optimize-1-.gif",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/42439f085a04-Artboard-1-copy-2.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/10e30cb61b4c-Artboard-1-copy-3.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/78bb2d40b799-Artboard-1-copy-4.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/54192513e169-Artboard-1-copy-5.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/6afb5aaef72b-Artboard-1-copy-6.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/ec2c92b8be0f-Artboard-1-copy-7.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/a2b4d6688146-Artboard-1-copy-8.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/87f37a99a9a8-Artboard-1-copy-9.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/c86c1f9b438a-Artboard-1-copy.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/deb77deee183-Artboard-1-copy-2-2x-80_00000.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/b9fafb281261-Artboard-1-copy-2-2x-80_00002.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/1506e64800c6-Artboard-1-copy-2-2x-80_00004.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/98b83ec43ed3-Artboard-1-copy-2-2x-80_00006.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/f7e62961df2c-Artboard-1-copy-2-2x-80_00008.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/2ec306fa19c9-Artboard-1-copy-2-2x-80_00010.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/739f6fa0f27f-Artboard-1-copy-2-2x-80_00012.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/fd8a52edb325-Artboard-1-copy-2-2x-80_00013.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/6e7776b4a4a0-Artboard-1-copy-2-2x-80_00016.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/596a22f2798e-Thumb_6.gif",
+      "kind": "video"
+    },
+    {
+      "src": "/media/67f431f2ebc7-Artboard-1-copy-7.webp",
+      "kind": "video"
+    },
+    {
+      "src": "/media/ad712cdeb22e-Artboard-1-copy-6.webp",
+      "kind": "video"
+    },
+    {
+      "src": "/media/267eeaac24e3-Artboard-1-copy-4.webp",
+      "kind": "video"
+    },
+    {
+      "src": "/media/b698b04ed0ea-Artboard-1-copy-5.webp",
+      "kind": "video"
+    },
+    {
+      "src": "/media/777ac4df5ae9-Artboard-1-copy-2-80.webp",
+      "kind": "video"
+    },
+    {
+      "src": "/media/a7162d75702c-01.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/33582646b846-02.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/b6d50ff0cc22-03.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/438cca998138-04.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/4c038c24dfe1-Socks04.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/projects/dan-reisinger-letters/work-cover-filled-2712af.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/projects/dan-reisinger-letters/reisinger-website-supplied.mp4",
+      "kind": "video"
+    },
+    {
+      "src": "/media/projects/dan-reisinger-letters/research-yarden-1-cfe724.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/projects/dan-reisinger-letters/research-idan-2-d69ce6.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/projects/dan-reisinger-letters/research-amir-1-c523e0.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/projects/dan-reisinger-letters/research-neta-1-33a125.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/projects/dan-reisinger-letters/research-neta-3-16d029.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/projects/otef/otef-01-film.mp4",
+      "kind": "video"
+    },
+    {
+      "src": "/media/projects/otef/otef-02-website-clean.mp4",
+      "kind": "video"
+    },
+    {
+      "src": "/media/projects/otef/otef-03-loop-silent.mp4",
+      "kind": "video"
+    },
+    {
+      "src": "/media/projects/otef/otef-04-loop-silent.mp4",
+      "kind": "video"
+    },
+    {
+      "src": "/media/projects/otef/otef-05-loop-silent.mp4",
+      "kind": "video"
+    },
+    {
+      "src": "/media/projects/otef/otef-06-loop-silent.mp4",
+      "kind": "video"
+    },
+    {
+      "src": "/media/projects/otef/otef-07-loop-silent.mp4",
+      "kind": "video"
+    },
+    {
+      "src": "/media/projects/dressed-to-protest/people-1-8ade8a.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/projects/dressed-to-protest/people-2-95a5de.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/projects/dressed-to-protest/event-230808ta14-3de555.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/projects/dressed-to-protest/event-230808ta16-8aa3a1.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/projects/dressed-to-protest/event-230808ta17-0d5e28.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/projects/dressed-to-protest/event-230808ta18-5a81ae.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/projects/dressed-to-protest/event-230808ta36-56fc2a.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/projects/dressed-to-protest/event-230808ta37-7f5697.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/projects/dressed-to-protest/event-230808ta40-020531.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/projects/dressed-to-protest/event-230808ta41-bead7d.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/projects/dressed-to-protest/event-230808ta44-937d63.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/projects/dressed-to-protest/event-230808ta55-d2cca7.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/projects/dressed-to-protest/event-230808ta56-c78997.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/projects/dressed-to-protest/event-230808ta57-6a814c.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/projects/dressed-to-protest/event-230808ta58-cd6b7b.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/projects/dressed-to-protest/event-230808ta85-7c6e70.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/projects/dressed-to-protest/event-230808ta97-feefc4.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/projects/dressed-to-protest/event-230808ta101-2f06c1.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/projects/dressed-to-protest/event-230808ta106-7c4e50.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/projects/dressed-to-protest/event-230808ta122-7e37ac.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/projects/dressed-to-protest/event-230808ta126-166e1d.webp",
+      "kind": "photograph"
+    },
+    {
+      "src": "/media/projects/dressed-to-protest/identity-07-silent.mp4",
+      "kind": "video"
+    },
+    {
+      "src": "/media/projects/dressed-to-protest/identity-09-silent.mp4",
+      "kind": "video"
+    }
+  ]
+}

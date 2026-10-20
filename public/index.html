@@ -1,25 +1,168 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#ffffff" />
-    <title>CON is being reincarnated.</title>
-    <meta name="description" content="CON is being reincarnated." />
-    <link rel="canonical" href="https://con.fail/" />
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="CON" />
-    <meta property="og:title" content="CON is being reincarnated." />
-    <meta property="og:description" content="CON is being reincarnated." />
-    <meta property="og:url" content="https://con.fail/" />
-    <link rel="icon" href="/assets/favicon.png" type="image/png" />
-    <link rel="preload" href="/assets/abc-favorit-light.woff2" as="font" type="font/woff2" crossorigin />
-    <link rel="stylesheet" href="/styles.css" />
-  </head>
-  <body>
-    <main>
-      <img class="logo" src="/assets/con-logo.png" alt="CON — קון — كون" width="400" height="92" />
-      <h1>CON is being<br class="mobile-break" /> reincarnated.</h1>
-    </main>
-  </body>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f5f6">
+  <title>CON — Things, Ideas & Projects</title>
+  <meta name="description" content="An independent creative project by Neil Cohen. Explore things, ideas and projects. Nothing is for sale.">
+  <link rel="canonical" href="https://con.fail/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="CON — Things, Ideas & Projects">
+  <meta property="og:description" content="Clothing, objects, source material and creative projects.">
+  <link rel="icon" href="/assets/favicon.png">
+  <link rel="preload" href="/assets/abc-favorit-light.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/styles.css?v=con-release-oct20-1">
+  <script type="module" src="/app.js?v=con-release-oct20-1"></script>
+</head>
+<body>
+  <svg class="media-filters" width="0" height="0" aria-hidden="true">
+    <defs>
+      <filter id="signature-paper" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+        <!-- Replace this photograph's pale backdrop; retain the dark garment and print. -->
+        <feComponentTransfer in="SourceGraphic">
+          <feFuncR type="linear" slope="-1" intercept=".94"/>
+          <feFuncG type="linear" slope="-1" intercept=".94"/>
+          <feFuncB type="linear" slope="-1" intercept=".94"/>
+        </feComponentTransfer>
+        <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  40 40 40 0 0" result="garment-mask"/>
+        <feComposite in="SourceGraphic" in2="garment-mask" operator="in" result="garment"/>
+        <feFlood flood-color="#f7f5f6" result="paper"/>
+        <feMerge><feMergeNode in="paper"/><feMergeNode in="garment"/></feMerge>
+        <!-- Keep the image's rounded alpha edge after replacing its background. -->
+        <feComposite in2="SourceAlpha" operator="in"/>
+      </filter>
+      <filter id="idea-black-matte" color-interpolation-filters="sRGB">
+        <!-- Key only the near-black slide matte; keep the original RGB content. -->
+        <feComponentTransfer in="SourceGraphic">
+          <feFuncR type="linear" slope="1" intercept="-.09"/>
+          <feFuncG type="linear" slope="1" intercept="-.09"/>
+          <feFuncB type="linear" slope="1" intercept="-.09"/>
+        </feComponentTransfer>
+        <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  30 30 30 0 0" result="matte-mask"/>
+        <feComposite in="SourceGraphic" in2="matte-mask" operator="in"/>
+      </filter>
+    </defs>
+  </svg>
+  <header class="site-header">
+    <a class="wordmark" href="/" data-i18n-aria="home" aria-label="CON — return to the beginning">
+      <img src="/assets/con-wordmark.svg" width="65" height="15" alt="CON — קון — كون">
+    </a>
+    <nav class="views" data-i18n-aria="archive" aria-label="Explore the archive">
+      <button data-view="things" aria-pressed="true"><span class="control-label" data-i18n="things">THINGS</span></button>
+      <button data-view="ideas" aria-pressed="false"><span class="control-label" data-i18n="ideas">IDEAS</span></button>
+      <button data-view="projects" aria-pressed="false"><span class="control-label" data-i18n="projects">PROJECTS</span></button>
+      <button id="about" type="button" aria-controls="site-intro" aria-expanded="false"><span class="control-label" data-i18n="about">ABOUT</span></button>
+    </nav>
+  </header>
+  <section id="site-intro" class="site-intro" data-i18n-aria="introLabel" aria-label="About CON" hidden>
+    <p data-i18n="intro"></p>
+  </section>
+  <main id="canvas" data-i18n-aria="canvas" aria-label="CON project canvas" aria-describedby="canvas-help">
+    <h1 class="sr-only" data-i18n="title">CON — Things, Ideas & Projects</h1>
+    <p id="canvas-help" class="sr-only">Move to explore. Click to look closer.</p>
+    <div id="field"></div>
+    <p id="loading" data-i18n="gathering" role="status">Gathering things…</p>
+  </main>
+  <section id="projects-view" hidden aria-labelledby="projects-heading">
+    <h2 id="projects-heading" class="sr-only" data-i18n="selectedProjects">Selected projects</h2>
+    <div id="project-backdrops" aria-hidden="true"></div>
+    <div id="project-list" class="project-list"></div>
+  </section>
+  <div id="project-cursor" class="project-cursor cursor-reticle" aria-hidden="true">
+    <svg class="cursor-point" width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true" focusable="false">
+      <circle class="cursor-ring" cx="16" cy="16" r="11.5" vector-effect="non-scaling-stroke"/>
+      <g class="cursor-ticks">
+        <path class="cursor-tick" d="M16 -2V9" vector-effect="non-scaling-stroke"/>
+        <g transform="rotate(90 16 16)"><path class="cursor-tick" d="M16 -2V9" vector-effect="non-scaling-stroke"/></g>
+        <g transform="rotate(180 16 16)"><path class="cursor-tick" d="M16 -2V9" vector-effect="non-scaling-stroke"/></g>
+        <g transform="rotate(270 16 16)"><path class="cursor-tick" d="M16 -2V9" vector-effect="non-scaling-stroke"/></g>
+      </g>
+      <circle class="cursor-dot" cx="16" cy="16" r="1"/>
+    </svg>
+  </div>
+  <div id="cursor-label" class="project-cursor" aria-hidden="true">
+    <span class="cursor-bubble"><span id="cursor-title"></span><span class="cursor-arrow">↗</span></span>
+  </div>
+  <footer class="site-footer">
+    <button class="motion-toggle" aria-pressed="false" aria-label="Pause automatic movement" title="Pause movement">
+      <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7 5v10M13 5v10"/></svg>
+    </button>
+    <img class="symbol" src="/assets/con-symbol.svg" width="29" height="29" alt="">
+  </footer>
+  <div class="grid-zoom" role="group" dir="ltr" data-i18n-aria="gridSize" aria-label="Grid size" hidden>
+    <button type="button" id="grid-zoom-out" data-i18n-aria="zoomOut" aria-label="Make the grid smaller" disabled><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 10h10"/></svg></button>
+    <button type="button" id="grid-zoom-in" data-i18n-aria="zoomIn" aria-label="Make the grid larger"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 10h10M10 5v10"/></svg></button>
+  </div>
+  <div class="jerusalem-status" dir="ltr">
+    <span class="jerusalem-city" data-i18n="jerusalem">JLM</span>
+    <svg class="jerusalem-clock" viewBox="0 0 32 32" fill="none" role="img" aria-label="Jerusalem time">
+      <title id="clock-title">Jerusalem time</title>
+      <circle class="clock-face" cx="16" cy="16" r="14"/>
+      <g id="clock-dial" aria-hidden="true"></g>
+      <path id="clock-hour" class="clock-hand" d="M16 17.5V9"/>
+      <path id="clock-minute" class="clock-hand" d="M16 18V6"/>
+      <path id="clock-second" class="clock-second" d="M16 19V4.5"/>
+      <circle cx="16" cy="16" r="1.2" fill="currentColor"/>
+    </svg>
+    <a class="jerusalem-weather" href="https://open-meteo.com/" target="_blank" rel="noopener noreferrer" aria-label="Jerusalem temperature">
+      <span id="jerusalem-temperature">—°</span>
+    </a>
+  </div>
+  <nav class="language-switch" dir="ltr" data-i18n-aria="language" aria-label="Language">
+    <button type="button" data-language="he" lang="he" aria-label="עברית" aria-pressed="false"><span class="control-label">HE</span></button>
+    <svg class="language-arrow" viewBox="0 0 18 12" aria-hidden="true" focusable="false"><path d="M1 6h16M11 1l6 5-6 5"/></svg>
+    <button type="button" data-language="en" lang="en" aria-label="English" aria-pressed="true"><span class="control-label">EN</span></button>
+  </nav>
+  <dialog id="project" aria-labelledby="project-title">
+    <div class="project-shell">
+      <header class="project-bar">
+        <button id="close-project" data-i18n-aria="close" aria-label="Close project"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m5 5 10 10M15 5 5 15"/></svg></button>
+      </header>
+      <div id="project-scroll" class="project-scroll">
+        <section id="idea-detail" hidden aria-labelledby="idea-title">
+          <div id="idea-media"></div>
+          <div class="idea-caption">
+            <div><p class="eyebrow" data-i18n="ideaSource">Idea / Source material</p><h2 id="idea-title"></h2></div>
+            <button id="idea-project" class="read-concept"><span data-i18n="exploreProject">Explore the project</span><span class="external-arrow" aria-hidden="true">↗</span></button>
+          </div>
+        </section>
+        <div class="project-intro">
+          <div class="project-photos">
+            <div class="project-hero-frame">
+              <img id="project-hero" alt="" width="750" height="1000">
+            </div>
+            <div id="photo-controls" class="photo-controls" data-i18n-aria="photographs" aria-label="Project photographs">
+              <button id="previous-photo" data-i18n-aria="previousPhoto" aria-label="Previous photograph">←</button>
+              <span id="photo-count" dir="ltr" aria-live="polite"></span>
+              <button id="next-photo" data-i18n-aria="nextPhoto" aria-label="Next photograph">→</button>
+            </div>
+            <div id="thumbnails" class="thumbnails"></div>
+          </div>
+          <div class="project-info">
+            <p id="project-kind" class="eyebrow"></p>
+            <h2 id="project-title"></h2>
+            <p id="project-collaboration" class="collaboration"></p>
+            <dl id="project-meta"></dl>
+            <div id="product-description" class="prose description"></div>
+            <button id="read-concept" class="read-concept"><span data-i18n="idea">The idea</span><span aria-hidden="true">↓</span></button>
+            <a id="project-website" class="read-concept" target="_blank" rel="noopener noreferrer" hidden><span></span><span class="external-arrow" aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <section id="project-story" class="project-story" aria-labelledby="story-title">
+          <div class="story-heading"><h3 id="story-title">Behind the thing</h3><span data-i18n="context">Idea / Context</span></div>
+          <div id="story-content"></div>
+        </section>
+      </div>
+      <button id="pull-close" class="pull-close" tabindex="-1" data-i18n-aria="pullClose" aria-label="Close project by pulling">
+        <span class="pull-close-icon" aria-hidden="true">×</span>
+        <span id="pull-close-label">Keep pulling to close</span>
+        <span class="pull-close-progress" aria-hidden="true"></span>
+      </button>
+      <div id="project-error" hidden role="status"></div>
+    </div>
+  </dialog>
+  <div class="sr-only" role="status" id="announcement" aria-live="polite"></div>
+  <noscript><p class="noscript">This collection needs JavaScript to explore the canvas. Please enable JavaScript to view the projects.</p></noscript>
+</body>
 </html>

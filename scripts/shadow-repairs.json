@@ -1,0 +1,24 @@
+{
+  "tool": "Built-in image_gen",
+  "date": "2026-10-20",
+  "usage": "Complete widened product photographs for Things and the first project-gallery photograph. Both shadows cast left, matching the original bottle. No CSS masks, fading or composited edge layers. Canvas sizing compensates for the expanded composition to keep approximately the original product display size. Original source assets remain untouched.",
+  "edits": [
+    {
+      "source": "/media/949c9c1904c7-01.webp",
+      "output": "/media/retouched/containers-left-shadow-wide.webp",
+      "prompt": "Use case: precise-object-edit / photographic outpainting. Edit the attached ORIGINAL CON bottle photograph, not a redesign. OUTPUT A WIDER 5:4 LANDSCAPE IMAGE (2000 by 1600 composition): retain the original 1200 by 1600 photograph's scale and vertical position, and add 800 pixels of matching studio floor ONLY TO THE LEFT. This is essential: do not squeeze the existing photograph, do not shrink the bottle vertically, do not crop the bottle or shorten its shadow. The bottle center will therefore be around 70% of the new canvas width; its yellow cap around 21% from the top and bottom around 84%. Preserve the EXACT bottle, molded Hebrew text, original brand logo אמה, label typography, rainbow label artwork, shape, lighting and colors. OUTPAINT THE LEFT CAST SHADOW until its FULL real physical tip is visible, with comfortable empty floor beyond the tip. The shadow is cast toward the LEFT and slightly upward in the image, matching the original light source from upper right. Continue its original natural density and coherent bottle silhouette, with modest photographic penumbra, then a distinct finite natural end. NO opacity fades, NO gradients at image edges, NO fog, NO artificial feathering, NO vignettes. The photograph should simply contain the complete cast shadow. Use the same seamless warm off-white #F7F5F6 floor/background throughout, absolutely no border. Produce a single finished photograph.",
+      "thumbnail": "/media/retouched/containers-left-shadow-wide-thumb.webp",
+      "width": 1402,
+      "height": 1122
+    },
+    {
+      "source": "/media/1bb7327a8d7c-Artboard-1.webp",
+      "output": "/media/retouched/menora-left-shadow-wide.webp",
+      "prompt": "Use case: precise-object-edit / photographic outpainting and cast shadow correction. Image 1 is the EDIT TARGET: original CON ceramic MENORA Hanukkiah with NINE lit white candles and dark green ornament/lettering. Image 2 is LIGHTING/SHADOW REFERENCE ONLY: the bottle with shadow cast to the LEFT. OUTPUT ONE WIDER 5:4 LANDSCAPE PHOTOGRAPH OF THE MENORA ONLY (2000 by 1600 composition): retain image 1's exact product scale and vertical position, add 800 pixels of matching floor ONLY TO THE LEFT of its original 1200 by 1600 canvas. Object center should thus be at 70% of the new width, not the canvas center; preserve its original height (flames start about 20%, base ends about 74% of height). Preserve the exact ceramic block, green decorative artwork, lettering MENORA and חנוכיה, nine candles and flames, perspective, proportions and material. REPLACE THE EXISTING RIGHTWARD CAST SHADOW with a realistic complete LEFTWARD cast shadow from a studio light at the upper right, matching image 2's direction, length feel, density and modest photographic penumbra. Make the leftward shadow coherent with the ceramic base and candles, grounded in contact with the floor. The whole shadow including its naturally terminating physical tip must fit inside the expanded canvas with generous clear floor after the tip. Absolutely NO rightward cast shadow, NO edge fade, NO opacity masking, NO foggy gradients, NO vignette. This is a complete naturally lit photograph, not an image faded into a background. Seamless uniform warm off-white #F7F5F6 floor at the outer edges. No new object, no bottle in the output, no changes to the product design or lettering.",
+      "thumbnail": "/media/retouched/menora-left-shadow-wide-thumb.webp",
+      "width": 1402,
+      "height": 1122,
+      "lightingReference": "/media/949c9c1904c7-01.webp"
+    }
+  ]
+}

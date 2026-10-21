@@ -90,15 +90,16 @@ illustrations, logos, scans, graphic layouts, product catalogue shots and produc
 close-ups are excluded from this selection.
 Opening a fragment shows that media with a link into its complete project story.
 
-Ideas has a black background and a real CSS 3D scene using the same inside-the-
+Ideas has a black background and a rigid 3D sphere using the same inside-the-
 sphere camera model as the personal website's Vault entrance. The camera stays
 at the center; fixed tangent image planes cover the whole sphere in an equal-area
-arrangement. Its radius is 3000 units, with a longer 38° lens (42° on mobile)
-for a broad, gentler curvature and 320ms velocity smoothing.
-A single parent rotates in 3D. Images never move or resize
-independently during rotation, and a full turn returns to the original arrangement.
-Native perspective projects real DOM buttons, retaining mouse, touch and keyboard
-interactions. Disjoint angular cones around the planes preserve at least 36px
+arrangement. Its radius is 3000 units, with a longer 38° lens and 320ms velocity
+smoothing. The mobile 42° lens uses a width-limited focal length so narrow phones
+show several fragments. Every plane rotates with the camera; a full turn returns
+to the original arrangement. Exact perspective matrices project real DOM buttons
+directly into the viewport, without nested `preserve-3d`/zero-sized layers.
+Offscreen planes are removed from rendering and hit testing; local video posters
+remain visible when autoplay is unavailable. Disjoint angular cones preserve at least 36px
 between projected polygons on tested desktop sizes and 22px on narrow/short screens.
 All fragments have a black presentation matte. Near-black slide and studio
 backgrounds are keyed to black at display time; original RGB artwork and files
@@ -143,6 +144,21 @@ momentum cannot close the project. Light or reversed pulls retract; Escape and
 the close button remain available.
 
 ## Phone tilt
+
+Touch taps and dragging have a separate pointer-gesture controller. A 12px slop
+allows normal finger jitter; pointerup opens the original tile exactly once.
+Dragging, cancellation, multi-touch and compatibility clicks cannot accidentally
+open a project. Touch contact pauses steering, and pointer capture is released
+on completion, view changes or backgrounding. Keyboard and mouse clicks retain
+native button activation.
+
+On narrow or coarse-pointer screens, Projects is a native vertical scroll list.
+The uppermost title still visible below the header activates its background;
+bottom space lets the final project reach that position. Desktop retains hover.
+Language changes and returning from a dialog preserve the list's scroll position.
+Regression coverage lives in `scripts/mobile-interaction.test.mjs`; sphere tests
+also verify that the CSS matrices match the actual 3D corners across viewports.
+Pointer-capture behavior follows the [Pointer Events specification](https://www.w3.org/TR/pointerevents/).
 
 On supported phones, the `TILT` / `הטיה` control enables motion steering for
 Things and Ideas. It requests DeviceOrientation permission directly from the tap

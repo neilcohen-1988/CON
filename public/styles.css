@@ -4,7 +4,7 @@
 [hidden]{display:none!important}
 body{margin:0;overflow:hidden;min-height:100dvh;background:var(--paper)}
 .media-filters{position:absolute;pointer-events:none}
-button,a{-webkit-tap-highlight-color:transparent}
+button,a{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
 button{font:inherit;font-feature-settings:inherit;color:inherit;border:0;background:none;cursor:pointer;padding:0}
 button:focus-visible,a:focus-visible{outline:1px solid #222;outline-offset:6px}
 button:disabled{opacity:.25;cursor:default}
@@ -34,13 +34,13 @@ button[aria-pressed=true]>.control-label::after,button[aria-expanded=true]>.cont
 #canvas{position:fixed;inset:0;overflow:clip;touch-action:none;cursor:crosshair}
 #field{position:absolute;inset:0;opacity:0;transition:opacity .65s}
 .ready #field{opacity:1}
-#field.is-sphere{perspective-origin:50% 50%;transform-style:preserve-3d;pointer-events:none}
-.sphere-scene{position:absolute;left:50%;top:50%;width:0;height:0;transform-style:preserve-3d;transform-origin:0 0;will-change:transform}
-.sphere-scene .idea-tile{backface-visibility:hidden;pointer-events:auto}
-.tile{position:absolute;left:0;top:0;display:block;text-align:left;will-change:transform;cursor:inherit}
+#field.is-sphere{pointer-events:none}
+.sphere-scene{position:absolute;inset:0;pointer-events:none}
+.sphere-scene .idea-tile{pointer-events:auto}
+.tile{position:absolute;left:0;top:0;display:block;text-align:left;will-change:transform;cursor:inherit;touch-action:none;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none}
 .tile:focus-visible{outline:none}
 [data-mode=things] .tile{transform-origin:0 0}
-.tile-image{width:100%;height:auto;display:block;object-fit:contain;border-radius:6px}
+.tile-image{width:100%;height:auto;display:block;object-fit:contain;border-radius:6px;pointer-events:none}
 img[src*="/media/3ca0a020347d-Souvenir-Front"]{filter:url(#signature-paper)}
 .tile-label{display:none}
 .idea-tile{transform-origin:0 0;background:#000;border-radius:6px}
@@ -57,7 +57,7 @@ img[src*="/media/3ca0a020347d-Souvenir-Front"]{filter:url(#signature-paper)}
 [data-mode=ideas] .site-header :focus-visible{outline-color:#fff}
 .project-cursor.is-light .cursor-bubble{background:#f5f5f7;color:#181818}
 [data-mode=ideas] dialog::backdrop{background:rgb(0 0 0 / .65)}
-#projects-view{position:fixed;inset:0;overflow:auto;background:#fff}
+#projects-view{position:fixed;inset:0;overflow:auto;background:#fff;overscroll-behavior:contain;touch-action:pan-y}
 #project-backdrops{position:fixed;inset:0;pointer-events:none}
 .project-backdrop{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;filter:brightness(.68);transform:scale(1.035);transition:opacity .55s ease,transform 1.2s var(--ease)}
 .project-backdrop.is-active{opacity:1;transform:scale(1)}
@@ -287,5 +287,14 @@ dialog>.language-switch{color:#181818;background:#ffffffed;border-radius:10px;z-
  .idea-caption .read-concept{width:100%;justify-content:space-between}
 }
 @media(max-width:420px){:root{--wordmark-width:65px;--navigation-size:8.5px}.views{gap:8px}}
+@media(max-width:700px),(hover:none) and (pointer:coarse){
+ .views{gap:0}.views button{min-width:44px;padding-inline:7px}
+ .views .control-label{flex:none}
+ #projects-view{--project-start:96px;--project-row:clamp(140px,28svh,260px);scroll-padding-top:var(--project-start)}
+ .project-list{justify-content:flex-start;gap:0;min-height:100%;padding:var(--project-start) 24px max(100px,calc(100svh - var(--project-start) - var(--project-row)))}
+ .project-name{display:flex;align-items:center;justify-content:center;width:100%;min-height:var(--project-row);flex:none;padding:16px 0;font-size:clamp(28px,7.2vw,46px);touch-action:pan-y}
+ .project-name-label{display:block;max-width:100%;text-wrap:balance}
+ .idea-kind{width:44px;height:44px;font-size:16px;left:7px;bottom:7px;pointer-events:none}
+}
 @media(max-height:600px){.site-intro{padding-block:76px 94px}.site-intro p{font-size:clamp(16px,4.5dvh,28px);line-height:1.2}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}

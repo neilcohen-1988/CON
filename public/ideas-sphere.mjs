@@ -1,6 +1,7 @@
 // A rigid 3D sphere viewed from its center, as in the personal site's Vault.
-// Tangent planes have fixed positions, orientations and sizes. Only the parent
-// scene rotates; projection is used here for visibility and geometry checks.
+// Tangent planes have fixed positions, orientations and sizes. Only the
+// camera rotates. Each plane is projected directly into the viewport, avoiding
+// nested preserve-3d layers (and their mobile clipping/hit-testing differences).
 const TAU = Math.PI * 2;
 const GOLDEN_ANGLE = Math.PI * (3 - Math.sqrt(5));
 const dot = (a, b) => a.reduce((sum, value, i) => sum + value * b[i], 0);
@@ -11,7 +12,7 @@ export function createSphereLayout(media, width, height) {
   // A longer lens and a larger sphere make changes in perspective gradual.
   // Radius alone would cancel out in a camera placed at the sphere's center.
   const fov = (small ? 42 : 38) * Math.PI / 180;
-  const focal = height / (2 * Math.tan(fov / 2));
+  const focal = Math.min(height, small ? width * 1.65 : height) / (2 * Math.tan(fov / 2));
   const radius = 3000;
   const gap = small || height < 500 ? 22 : 36;
   // Equal-area placement covers the whole sphere, including both poles. Every
@@ -36,12 +37,8 @@ export function createSphereLayout(media, width, height) {
     const h = diagonal / Math.sqrt(ratio * ratio + 1);
     const w = h * ratio;
     const center = point.normal.map(value => value * radius);
-    const normal = point.normal.map(value => -value);
-    const origin = center.map((value, i) => value - point.right[i] * w / 2 - point.down[i] * h / 2);
-    const matrix = [...point.right, 0, ...point.down, 0, ...normal, 0, ...origin, 1];
     return { ...point, center, angularRadius, width: w, height: h,
-      baseX: point.longitude * focal, baseY: point.latitude * focal,
-      transform: `matrix3d(${matrix.map(value => value.toFixed(9)).join(',')})` };
+      baseX: point.longitude * focal, baseY: point.latitude * focal };
   });
   return { width, height, focal, radius, fov, cells,
     gap, world: { width: TAU * focal, height: TAU * focal } };
@@ -79,6 +76,18 @@ export function projectSphereCell(cell, camera, layout) {
   const bounds = { left: Math.min(...corners.map(p => p.x)), right: Math.max(...corners.map(p => p.x)),
     top: Math.min(...corners.map(p => p.y)), bottom: Math.max(...corners.map(p => p.y)) };
   if (bounds.right < -100 || bounds.left > layout.width + 100 || bounds.bottom < -100 || bounds.top > layout.height + 100) return null;
-  return { center, corners, bounds, opacity: .94,
+  // A perspective homography, not a displacement: all four corners retain the
+  // exact rigid-sphere projection. Normalize the local plane into screen-sized
+  // pixels so phones don't allocate 3000-unit GPU surfaces for each photograph.
+  const right = rotatePoint(cell.right, rotation), down = rotatePoint(cell.down, rotation);
+  const origin = corners[0].position;
+  const cx = layout.width / 2, cy = layout.height / 2;
+  const column = vector => [vector[0] - cx * vector[2] / layout.focal,
+    vector[1] - cy * vector[2] / layout.focal, 0, -vector[2] / layout.focal];
+  const matrix = [...column(right), ...column(down), 0, 0, 1, 0,
+    (layout.focal * origin[0] - cx * origin[2]) / layout.radius,
+    (layout.focal * origin[1] - cy * origin[2]) / layout.radius, 0, -origin[2] / layout.radius];
+  return { center, corners, bounds, opacity: .94, matrix,
+    transform: `matrix3d(${matrix.join(',')})`,
     visible: bounds.right > 0 && bounds.left < layout.width && bounds.bottom > 0 && bounds.top < layout.height };
 }

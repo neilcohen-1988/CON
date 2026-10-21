@@ -88,6 +88,27 @@ test('the sphere is rigid, each fragment is reachable, and a full turn closes se
   }
 });
 
+test('the mobile-safe CSS projection matches every 3D corner without a nested perspective scene', () => {
+  for (const [width, height] of [[320, 568], [390, 844], [844, 390], [1440, 900]]) {
+    const layout = createSphereLayout(ideas.map(item => item.media), width, height);
+    for (let frame = 0; frame < 40; frame++) {
+      const camera = { x: frame * 113, y: Math.sin(frame) * 600 };
+      for (const cell of layout.cells) {
+        const plane = projectSphereCell(cell, camera, layout);
+        if (!plane) continue;
+        const w = cell.width * layout.focal / layout.radius, h = cell.height * layout.focal / layout.radius;
+        [[0, 0], [w, 0], [w, h], [0, h]].forEach(([x, y], i) => {
+          const m = plane.matrix, divisor = m[3] * x + m[7] * y + m[15];
+          assert.ok(divisor > 0);
+          assert.ok(Math.abs((m[0] * x + m[4] * y + m[12]) / divisor - plane.corners[i].x) < 1e-7);
+          assert.ok(Math.abs((m[1] * x + m[5] * y + m[13]) / divisor - plane.corners[i].y) < 1e-7);
+          assert.equal(m[2] * x + m[6] * y + m[14], 0);
+        });
+      }
+    }
+  }
+});
+
 test('excluded hand and sale graphics are absent from Ideas and complete project content', () => {
   const exclusions = JSON.parse(readFileSync(new URL('./excluded-media.json', import.meta.url)));
   const serialized = [JSON.stringify(ideas), ...['the-father', 'sale-tote'].map(id =>

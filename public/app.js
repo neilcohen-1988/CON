@@ -1,5 +1,7 @@
 import { installPullClose } from './pull-close.mjs?v=trackpad-close-3';
-import { createSphereLayout, projectSphereCell, sphereRotation } from './ideas-sphere.mjs';
+import { createSphereLayout, projectSphereCell } from './ideas-sphere.mjs?v=mobile-2';
+import { installCanvasGestures } from './canvas-gestures.mjs?v=1';
+import { installProjectNavigation } from './project-navigation.mjs?v=1';
 import { installJerusalemStatus } from './jerusalem.mjs?v=clock-dial-2';
 import { installSiteIntro } from './site-intro.mjs?v=about-1';
 import { installPhoneTilt } from './phone-tilt.mjs?v=1';
@@ -32,6 +34,8 @@ const coarsePointer = matchMedia('(pointer: coarse)');
 const siteIntro = installSiteIntro({ node: $('#site-intro'), reducedMotion, trigger: $('#about') });
 const cache = new Map();
 const canvasSets = new Map();
+const tileActions = new WeakMap();
+let projectNavigation;
 const projectFilms = new Map();
 const projectFilmObserver = new IntersectionObserver(entries => {
   entries.forEach(entry => {
@@ -50,6 +54,7 @@ let selected = null;
 let activeIdea = null;
 let returnImage = false;
 let sourceTile = null;
+let projectListPosition = 0;
 let photoIndex = 0;
 let requestId = 0;
 let closing = false;
@@ -65,7 +70,6 @@ let viewport = { width: innerWidth, height: innerHeight };
 let world = { width: 2600, height: 2200 };
 let sphereLayout;
 let dragging = null;
-let dragged = false;
 let keyboard = false;
 let frame = 0;
 let lastTime = 0;
@@ -123,6 +127,7 @@ function loadProject(project) {
 
 function layout() {
   viewport = { width: innerWidth, height: innerHeight };
+  if (mode === 'projects' || !tiles.length) return;
   if (mode === 'ideas') {
     const previousFocal = sphereLayout?.focal;
     sphereLayout = createSphereLayout(tiles.map(tile => tile.media), viewport.width, viewport.height);
@@ -130,17 +135,15 @@ function layout() {
       camera.x *= sphereLayout.focal / previousFocal;
       camera.y *= sphereLayout.focal / previousFocal;
     }
-    field.style.perspective = `${sphereLayout.focal}px`;
     world = sphereLayout.world;
     tiles.forEach((tile, index) => {
       tile.sphere = sphereLayout.cells[index];
       tile.x = tile.sphere.baseX;
       tile.y = tile.sphere.baseY;
-      tile.width = tile.sphere.width;
-      tile.height = tile.sphere.height;
+      tile.width = tile.sphere.width * sphereLayout.focal / sphereLayout.radius;
+      tile.height = tile.sphere.height * sphereLayout.focal / sphereLayout.radius;
       tile.node.style.width = `${tile.width}px`;
       tile.node.style.height = `${tile.height}px`;
-      tile.node.style.transform = tile.sphere.transform;
     });
     render();
     return;
@@ -183,12 +186,13 @@ function layout() {
 
 function render() {
   if (mode === 'ideas') {
-    const { pitch, yaw } = sphereRotation(camera, sphereLayout);
-    sphereScene.style.transform = `translateZ(${sphereLayout.focal}px) rotateX(${pitch}rad) rotateY(${yaw}rad)`;
     for (const tile of tiles) {
       const plane = projectSphereCell(tile.sphere, camera, sphereLayout);
-      tile.node.style.opacity = plane ? plane.opacity : 0;
-      tile.node.style.pointerEvents = plane ? '' : 'none';
+      tile.node.hidden = !plane;
+      if (plane) {
+        tile.node.style.transform = plane.transform;
+        tile.node.style.opacity = plane.opacity;
+      }
       tile.visible = plane?.visible || false;
       if (plane && !tile.loaded) {
         tile.image.src = tile.previewSrc;
@@ -216,10 +220,15 @@ function render() {
 function syncPreview(tile) {
   if (!tile.video) return;
   const play = mode === 'ideas' && tile.visible && !paused && !reducedMotion.matches && !dialog.open && !document.hidden;
-  if (play && !tile.playing) {
+  if (play && !tile.playing && !tile.previewBlocked) {
     if (!tile.video.src) tile.video.src = tile.media.preview;
     tile.playing = true;
-    tile.video.play().catch(() => { tile.playing = false; });
+    tile.video.play().catch(error => {
+      tile.playing = false;
+      // Pausing an in-flight preview (opening a dialog, rotating the phone)
+      // aborts play without meaning autoplay is unavailable.
+      tile.previewBlocked = error.name !== 'AbortError';
+    });
   } else if (!play && tile.playing) {
     tile.video.pause();
     tile.playing = false;
@@ -299,7 +308,7 @@ function tick(time) {
   const tilting = phoneTilt.active;
   const input = tilting ? phoneTilt.vector : pointer;
   // Touch browsers retain :hover after a tap; that must not freeze tilt steering.
-  const overMenu = !tilting && (navigation.matches(':hover') || languageSwitch.matches(':hover') || $('.jerusalem-weather').matches(':hover') || (mode === 'things' && gridZoom.matches(':hover')));
+  const overMenu = !tilting && !coarsePointer.matches && (navigation.matches(':hover') || languageSwitch.matches(':hover') || $('.jerusalem-weather').matches(':hover') || (mode === 'things' && gridZoom.matches(':hover')));
   const blocked = overMenu || dialog.open || mode === 'projects' || paused || !(tilting || pointer.active) || dragging || keyboard;
   const distance = Math.hypot(input.x, input.y);
   const radius = Math.min(distance, 1);
@@ -368,6 +377,9 @@ function makeTiles(view) {
       video.muted = true;
       video.loop = true;
       video.playsInline = true;
+      video.poster = previewSrc;
+      video.setAttribute('muted', '');
+      video.setAttribute('playsinline', '');
       video.preload = 'none';
       video.setAttribute('aria-hidden', 'true');
       node.append(video);
@@ -379,10 +391,13 @@ function makeTiles(view) {
     }
     node.append(label);
     const tile = { node, image, project, media, previewSrc, fragment, video, loaded: false, playing: false };
-    node.addEventListener('click', () => { if (!dragged) fragment ? openIdea(fragment, node) : openProject(project, node); });
+    const activate = () => fragment ? openIdea(fragment, node) : openProject(project, node);
+    tileActions.set(node, activate);
+    node.addEventListener('click', activate);
     node.addEventListener('pointerdown', event => {
       // Preserve the click target while the canvas continues to travel.
       if (event.pointerType === 'mouse' && event.button === 0) node.setPointerCapture(event.pointerId);
+      if (!fragment) loadProject(project).catch(() => {});
     });
     node.addEventListener('pointerenter', () => { loadProject(project).catch(() => {}); });
     node.addEventListener('focus', () => {
@@ -404,7 +419,10 @@ function makeTiles(view) {
 function makeProjects() {
   const list = $('#project-list');
   const backdrops = $('#project-backdrops');
+  let activeId;
   const show = (id) => {
+    if (id === activeId) return;
+    activeId = id;
     document.body.classList.toggle('has-project-preview', Boolean(id));
     list.classList.toggle('has-preview', Boolean(id));
     list.querySelectorAll('button').forEach(node => node.classList.toggle('is-active', node.dataset.project === id));
@@ -421,15 +439,21 @@ function makeProjects() {
     background.alt = '';
     background.decoding = 'async';
     backdrops.append(background);
-    const button = element('button', 'project-name', localizeProject(project).displayTitle);
+    const button = element('button', 'project-name');
+    button.append(element('span', 'project-name-label', localizeProject(project).displayTitle));
     button.dataset.project = project.id;
-    button.addEventListener('pointerenter', () => { show(project.id); loadProject(project).catch(() => {}); });
-    button.addEventListener('pointerleave', () => { if (!keyboard) show(null); });
-    button.addEventListener('focus', () => show(project.id));
-    button.addEventListener('blur', () => show(null));
+    button.addEventListener('pointerenter', () => {
+      if (!projectNavigation.scrollDriven) show(project.id);
+      loadProject(project).catch(() => {});
+    });
+    button.addEventListener('pointerleave', () => { if (!keyboard && !projectNavigation.scrollDriven) show(null); });
+    button.addEventListener('focus', () => { if (!projectNavigation.scrollDriven) show(project.id); });
+    button.addEventListener('blur', () => { if (!projectNavigation.scrollDriven) show(null); });
     button.addEventListener('click', () => openProject(project, button));
     list.append(button);
   });
+  projectNavigation = installProjectNavigation({ view: $('#projects-view'), list,
+    header: $('.site-header'), show, isCurrent: () => mode === 'projects' });
 }
 
 async function setView(next) {
@@ -480,10 +504,10 @@ function commitView(next) {
   $('meta[name="theme-color"]').content = mode === 'ideas' ? '#000000' : mode === 'things' ? '#f7f5f6' : '#ffffff';
   canvas.hidden = mode === 'projects';
   field.classList.toggle('is-sphere', mode === 'ideas');
-  if (mode !== 'ideas') field.style.perspective = '';
   $('#projects-view').hidden = mode !== 'projects';
+  projectNavigation?.refresh();
   velocity = { x: 0, y: 0 };
-  dragging = null;
+  canvasGestures.cancel();
   hideProjectCursor();
   if (mode !== 'projects') {
     const set = canvasSets.get(mode);
@@ -823,6 +847,7 @@ function travelCroppedImage(from, to, src, duration) {
 async function openProject(project, tile) {
   if (dialog.open && !activeIdea) return;
   const wasOpen = dialog.open;
+  if (!wasOpen && mode === 'projects') projectListPosition = $('#projects-view').scrollTop;
   const request = ++requestId;
   // Resolve the description before measuring the image's landing position.
   // The canvas keeps moving while uncached content loads, so capture its source
@@ -867,6 +892,7 @@ async function openProject(project, tile) {
   framePhoto(hero, cover);
   hero.alt = localizeProject(project).displayTitle;
   if (!wasOpen) dialog.showModal();
+  if (mode === 'projects') $('#projects-view').scrollTop = projectListPosition;
   dialog.append(languageSwitch);
   scroller.scrollTop = 0;
   pullClose.reset();
@@ -978,6 +1004,10 @@ async function closeProject() {
     closing = false;
     activeIdea = null;
     sourceTile?.focus({ preventScroll: true });
+    if (mode === 'projects') {
+      $('#projects-view').scrollTop = projectListPosition;
+      projectNavigation?.refresh();
+    }
     syncPreviews();
   };
   if (reducedMotion.matches) { finish(); return; }
@@ -1023,31 +1053,27 @@ document.addEventListener('pointerout', event => {
   if (!event.relatedTarget) { pointer.active = false; hideProjectCursor(); }
 });
 window.addEventListener('blur', () => { pointer.active = false; velocity = { x: 0, y: 0 }; hideProjectCursor(); });
-canvas.addEventListener('pointerdown', event => {
-  if (event.button !== 0 || (event.pointerType === 'mouse' && event.target.closest('.tile'))) return;
-  keyboard = false;
-  phoneTilt.recenter();
-  dragged = false;
-  dragging = { x: event.clientX, y: event.clientY, startX: event.clientX, startY: event.clientY, id: event.pointerId };
-});
-canvas.addEventListener('pointermove', event => {
-  if (!dragging || dragging.id !== event.pointerId) return;
-  if (Math.hypot(event.clientX - dragging.startX, event.clientY - dragging.startY) > 6) {
-    dragged = true;
-    canvas.setPointerCapture(event.pointerId);
-  }
-  if (dragged) {
+const canvasGestures = installCanvasGestures({
+  surface: canvas,
+  onTap: node => tileActions.get(node)?.(),
+  onContact: (active, type) => {
+    dragging = active;
+    phoneTilt.recenter();
+    if (active) {
+      keyboard = false;
+      siteIntro.dismiss();
+      if (type !== 'mouse') pointer.active = false;
+      velocity = { x: 0, y: 0 };
+      tiles.forEach(tile => { tile.previewBlocked = false; });
+    }
+  },
+  onPan: (x, y) => {
     const scale = mode === 'things' ? gridScale : 1;
-    camera.x -= (event.clientX - dragging.x) / scale;
-    camera.y -= (event.clientY - dragging.y) / scale;
+    camera.x -= x / scale;
+    camera.y -= y / scale;
     render();
   }
-  dragging.x = event.clientX;
-  dragging.y = event.clientY;
 });
-function endDrag() { dragging = null; phoneTilt.recenter(); setTimeout(() => { dragged = false; }, 0); }
-canvas.addEventListener('pointerup', endDrag);
-canvas.addEventListener('pointercancel', endDrag);
 canvas.addEventListener('wheel', event => {
   if (event.ctrlKey || event.metaKey || dialog.open) return; // Preserve native browser zoom.
   event.preventDefault();
@@ -1187,8 +1213,9 @@ function applyLanguage() {
     }));
   }));
   presentations.forEach(item => {
-    $(`.project-name[data-project="${item.id}"]`).textContent = localizeProject(item).displayTitle;
+    $(`.project-name[data-project="${item.id}"] .project-name-label`).textContent = localizeProject(item).displayTitle;
   });
+  projectNavigation?.refresh();
   if (dialog.open && activeIdea) {
     const item = localizeProject(activeIdea.project);
     $('#idea-title').textContent = item.displayTitle;
@@ -1203,9 +1230,12 @@ function applyLanguage() {
 languageSwitch.addEventListener('click', event => {
   const button = event.target.closest('[data-language]');
   if (!button || button.dataset.language === language) return;
+  const projectScroll = $('#projects-view').scrollTop;
   if (dialog.open) stopAnimations();
   setLanguage(button.dataset.language);
   applyLanguage();
+  $('#projects-view').scrollTop = projectScroll;
+  projectNavigation?.refresh();
   $('#announcement').textContent = t('languageChanged');
 });
 applyLanguage();
